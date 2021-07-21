@@ -1,0 +1,15 @@
+@import "./assets/scss/variables";
+@import "assets/scss/include-editor";
+
+/* WP editor styles */
+
+/* Editor area size https://wordpress.org/gutenberg/handbook/extensibility/theme-support/#changing-the-width-of-the-editor */
+.wp-block {
+    max-width: 1140px;
+}
+.wp-block[data-align="wide"] {
+    max-width: 1366px;
+}
+.wp-block[data-align="full"] {
+    max-width: none;
+}

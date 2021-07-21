@@ -1,0 +1,21 @@
+.nk-fullpage-title-effect {
+    position: relative;
+    overflow: hidden;
+
+    > span {
+        display: inline-block;
+        -webkit-transition: .6s transform cubic-bezier(.63, .23, .27, 1.04);
+        -o-transition: .6s transform cubic-bezier(.63, .23, .27, 1.04);
+        transition: .6s transform cubic-bezier(.63, .23, .27, 1.04);
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
+        will-change: transform;
+    }
+
+    .nk-fullpage-title-effect-show & > span {
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+    }
+}

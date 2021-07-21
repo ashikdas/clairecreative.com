@@ -1,0 +1,95 @@
+/*
+ * Hide some blocks default Lazy styles.
+ */
+.wp-block-lazyblock-skylith-scroll-down,
+.wp-block-lazyblock-skylith-zigzag-divider,
+.wp-block-lazyblock-skylith-fullscreen-works-split,
+.wp-block-lazyblock-skylith-slider,
+.wp-block-lazyblock-skylith-fullpage,
+.wp-block-lazyblock-skylith-photos-slideshow,
+.wp-block-lazyblock-skylith-members,
+.wp-block-lazyblock-skylith-hover-portfolio,
+.wp-block-lazyblock-skylith-launch-site,
+.wp-block-lazyblock-skylith-portfolio-meta {
+    padding: 0;
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+
+    .lzb-content-title {
+        display: none;
+    }
+
+    .lzb-preview-server {
+        > .components-spinner {
+            position: relative;
+            float: none;
+            margin-bottom: 30px;
+            margin-left: 50%;
+        }
+        > div + .components-spinner {
+            position: absolute;
+            float: right;
+            top: -3px;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+    }
+
+    a,
+    button {
+        pointer-events: none;
+    }
+}
+
+/*
+ * Fullscreen Works Split.
+ */
+.wp-block-lazyblock-skylith-fullscreen-works-split {
+    .nk-fullpage-item:first-child {
+        display: block;
+    }
+    .nk-fullpage-nav,
+    .nk-fullpage-number {
+        position: absolute;
+    }
+}
+
+/*
+ * Fullpage
+ */
+.wp-block-lazyblock-skylith-fullpage .nk-fullpage-nav {
+    position: absolute;
+}
+
+/*
+ * Photos Slideshow
+ */
+.wp-block-lazyblock-skylith-photos-slideshow {
+    .nk-slider-fullscreen svg {
+        width: 1em;
+    }
+}
+
+/*
+ * Portfolio Meta
+ */
+.wp-block-lazyblock-skylith-portfolio-meta .nk-portfolio-details {
+    min-width: 0;
+
+    tr td {
+        width: 1%;
+        padding: 0;
+        padding-right: 7px;
+        word-break: inherit;
+        border: none;
+
+        + td {
+            width: 100%;
+            padding-right: 0;
+        }
+    }
+    tr + tr td {
+        padding-top: 5px;
+    }
+}

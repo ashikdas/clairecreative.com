@@ -1,0 +1,568 @@
+// shop styles rewritten in WP styles
+// so, here the most of styles removed
+
+/**
+ * Filter
+ */
+.nk-shop-header {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 60px;
+
+    // additional offsets for navigations.
+    .nk-header ~ .nk-main & {
+        padding-top: 60px;
+    }
+    .nk-header-left ~ .nk-main & {
+        padding-top: 0;
+    }
+    @media screen and #{$media_smaller_sm} {
+        .nk-header-left ~ .nk-main & {
+            padding-top: 60px;
+        }
+    }
+
+    > a,
+    > span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        min-width: 90px;
+        min-height: 80px;
+        padding: 0 20px;
+        margin-top: -1px;
+        margin-left: -1px;
+        color: darken($color_gray_7, 10%);
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        background-color: #fff;
+        border: 1px solid $color_gray_6;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s;
+    }
+
+    .nk-shop-filter-toggle,
+    .nk-shop-header-back,
+    .nk-shop-header-share {
+        min-width: 160px;
+        padding: 0 45px;
+        font-size: .9rem;
+        font-weight: 500;
+        color: $color_dark_main;
+        text-transform: uppercase;
+
+        &:hover {
+            color: darken($color_gray_7, 10%);
+        }
+    }
+    .nk-shop-header-back {
+        margin-right: auto;
+
+        span {
+            margin-right: 30px;
+        }
+    }
+    .nk-shop-filter-toggle {
+        > span {
+            -webkit-transition: .2s opacity;
+            -o-transition: .2s opacity;
+            transition: .2s opacity;
+        }
+        > span:nth-of-type(1) {
+            position: absolute;
+        }
+        > span:nth-of-type(2) {
+            opacity: 0;
+        }
+
+        &.active {
+            > span:nth-of-type(1) {
+                opacity: 0;
+            }
+            > span:nth-of-type(2) {
+                opacity: 1;
+            }
+        }
+    }
+
+    .nk-shop-cart-toggle {
+        position: relative;
+        font-size: 1.9rem;
+
+        .nk-badge {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+        }
+    }
+
+    > a:hover,
+    > span:hover {
+        color: $color_dark_main;
+    }
+    .nk-shop-layout-toggle.active,
+    .nk-shop-layout-toggle.active:hover {
+        color: #fff;
+        background-color: $color_dark_main;
+        border-color: $color_dark_main;
+    }
+
+    .nk-shop-header-share {
+        &:hover .nk-shop-header-share-items,
+        &:focus .nk-shop-header-share-items {
+            visibility: inherit;
+            opacity: 1;
+        }
+
+        .nk-shop-header-share-items {
+            position: absolute;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            top: 100%;
+            width: auto;
+            margin-top: 0;
+            margin-left: -45px;
+            visibility: hidden;
+            opacity: 0;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            transition: .2s;
+            z-index: 1;
+
+            > * {
+                min-width: 60px;
+            }
+            > * > span,
+            > * > svg {
+                margin-right: 0;
+            }
+        }
+    }
+
+    @media #{$media_smaller_xs} {
+        > a,
+        > span {
+            min-width: 60px;
+            min-height: 60px;
+            padding: 0 10px;
+        }
+        .nk-shop-cart-toggle .nk-badge {
+            top: 10px;
+            right: 10px;
+        }
+        .nk-shop-header-back {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 100%;
+                    flex: 1 1 100%;
+            min-width: 100%;
+            max-width: 100%;
+            margin-right: -1px;
+            margin-left: -1px;
+        }
+        .nk-shop-header-share {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 33.333%;
+                    flex: 1 1 33.333%;
+            min-width: 33.333%;
+            max-width: 33.333%;
+        }
+    }
+
+    @media #{$media_xxs} {
+        > a,
+        > span {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 33.333%;
+                    flex: 1 1 33.333%;
+            min-width: 33.333%;
+            max-width: 33.333%;
+            min-height: 60px;
+            padding: 0 10px;
+        }
+        .nk-shop-filter-toggle {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 66.666%;
+                    flex: 1 1 66.666%;
+            min-width: 66.666%;
+            max-width: 66.666%;
+            padding: 0 20px;
+            margin-right: -1px;
+            font-size: .8rem;
+            font-weight: 500;
+            color: $color_dark_main;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/**
+ * Load More
+ */
+.nk-shop-load-more {
+    padding-top: 65px;
+    padding-bottom: 60px;
+
+    .nk-shop-load-more-btn {
+        display: block;
+        padding: 31px 35px;
+        font-family: inherit;
+        font-size: .96rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        border: 1px solid $color_gray_6;
+        -webkit-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s;
+
+        &:hover {
+            color: #fff;
+            background-color: $color_dark_1;
+        }
+    }
+}
+
+/**
+ * Shop Filter
+ */
+.nk-shop-filter {
+    display: none;
+    padding: 80px 100px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: #fff;
+    background-color: $color_dark_main;
+
+    &.active {
+        display: block;
+    }
+
+    @media #{$media_smaller_xs} {
+        padding: 40px 50px;
+    }
+
+    @media #{$media_xxs} {
+        padding: 30px;
+    }
+
+    .nk-shop-filter-item-title {
+        margin-bottom: 21px;
+        font-size: 1.09rem;
+        color: inherit;
+        letter-spacing: .02em;
+    }
+
+    .nk-shop-filter-item {
+        padding: 0;
+        margin: 0;
+        color: $color_gray_mid;
+        list-style: none;
+
+        li {
+            font-size: .8rem;
+            text-transform: uppercase;
+            letter-spacing: .02em;
+        }
+
+        a {
+            display: block;
+            padding-top: 4px;
+            padding-bottom: 5px;
+            color: inherit;
+            text-decoration: none;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            transition: .2s;
+        }
+        a:hover {
+            color: #fff;
+        }
+        a.active {
+            color: #fff;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 4px;
+                height: 4px;
+                margin-top: -2px;
+                margin-right: 10px;
+                vertical-align: middle;
+                background-color: currentColor;
+            }
+        }
+    }
+}
+
+/**
+ * Shop Cart
+ */
+.nk-shop-cart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: rgba($color_dark_main, 0);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 1002;
+
+    &.active {
+        visibility: inherit;
+        background-color: rgba($color_dark_main, .6);
+    }
+
+    .nk-shop-cart-content {
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-width: 415px;
+        height: 100%;
+        color: $color_gray_mid;
+        background-color: $color_dark_main;
+        -webkit-transition: .3s transform ease-out;
+        -o-transition: .3s transform ease-out;
+        transition: .3s transform ease-out;
+        -webkit-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+                transform: translateX(100%);
+    }
+
+    &.active .nk-shop-cart-content {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+    }
+
+    .nk-shop-cart-content-header {
+        position: relative;
+        padding: 15px 30px;
+        font-size: .8rem;
+        text-transform: uppercase;
+        background-color: $color_dark_1;
+
+        .nk-shop-cart-close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding-right: 20px;
+            font-size: 2.3rem;
+            line-height: 1.6;
+            cursor: pointer;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            transition: .2s;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    .nk-shop-cart-content-items {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+
+        &::-webkit-scrollbar {
+            width: 6px;
+            background-color: rgba(255, 255, 255, 0);
+            -webkit-transition: .2s background-color;
+            transition: .2s background-color;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0);
+            -webkit-transition: .2s background-color;
+            transition: .2s background-color;
+        }
+        &:hover {
+            &::-webkit-scrollbar {
+                background-color: rgba(255, 255, 255, .1);
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: rgba(255, 255, 255, .2);
+            }
+        }
+
+        // TODO: remove nano styles since it was removed from template.
+        .nano {
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .nk-shop-cart-content-item {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            width: 100%;
+            padding: 30px;
+            border-bottom: 1px solid $color_dark_1;
+        }
+        .nk-shop-cart-content-item-thumb {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 100px;
+                    flex: 0 0 100px;
+            width: 100px;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            transition: .2s;
+
+            &:hover {
+                opacity: .7;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .nk-shop-cart-content-item-cont {
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
+            padding-left: 30px;
+
+            .nk-shop-cart-content-item-name {
+                margin-bottom: 5px;
+                color: #fff;
+                -webkit-transition: .2s;
+                -o-transition: .2s;
+                transition: .2s;
+
+                &:hover {
+                    text-decoration: none;
+                    opacity: .7;
+                }
+            }
+
+            .nk-shop-cart-content-item-price {
+                > span {
+                    display: inline-block;
+                    min-width: 115px;
+                }
+                .nk-shop-cart-content-item-remove {
+                    display: inline;
+                    min-width: 0;
+                    font-size: 1.7rem;
+                    line-height: 1.4;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    -webkit-transition: .2s;
+                    -o-transition: .2s;
+                    transition: .2s;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .nk-shop-cart-content-subtotal {
+        padding: 23px 30px;
+        border-bottom: 1px solid $color_dark_1;
+
+        strong {
+            margin-left: 60px;
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #fff;
+            vertical-align: middle;
+        }
+    }
+
+    .nk-shop-cart-content-footer {
+        padding: 30px;
+        margin-top: auto;
+    }
+
+    @media screen and #{$media_xxs} {
+        .nk-shop-cart-content-header {
+            padding: 15px 20px;
+        }
+        .nk-shop-cart-content-items {
+            .nk-shop-cart-content-item {
+                padding: 20px;
+            }
+            .nk-shop-cart-content-item-cont {
+                padding-left: 20px;
+            }
+
+            .nk-shop-cart-content-item-thumb {
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 60px;
+                        flex: 0 0 60px;
+                width: 60px;
+            }
+        }
+        .nk-shop-cart-content-subtotal {
+            padding: 10px 20px;
+        }
+        .nk-shop-cart-content-footer {
+            padding: 20px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .nk-shop-cart-content-items {
+            .nk-shop-cart-content-item {
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+            }
+            .nk-shop-cart-content-item-cont {
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 100%;
+                        flex: 0 0 100%;
+                width: 100%;
+                padding-top: 10px;
+                padding-left: 0;
+            }
+        }
+    }
+}

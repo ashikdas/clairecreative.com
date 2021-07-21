@@ -1,0 +1,345 @@
+# Copyright (C) 2020 nK
+# This file is distributed under the same license as the Ghost Kit PRO Addon plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ghost Kit PRO Addon 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-19T11:08:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: ghostkit-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Ghost Kit PRO Addon"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extended functionality for Ghost Kit blocks collection"
+msgstr ""
+
+#. Author of the plugin
+msgid "nK"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://nkdev.info"
+msgstr ""
+
+#: classes/class-fonts.php:79
+#: settings/pages/fonts.js:182
+msgid "Adobe Fonts"
+msgstr ""
+
+#: classes/class-rest.php:84
+#: classes/class-rest.php:96
+#: classes/class-rest.php:108
+msgid "User don't have permissions to change options."
+msgstr ""
+
+#: classes/class-rest.php:132
+msgid "Typography not found."
+msgstr ""
+
+#: classes/class-shapes.php:28
+msgid "PRO"
+msgstr ""
+
+#: classes/class-shapes.php:31
+msgid "Wave Particles"
+msgstr ""
+
+#: classes/class-shapes.php:38
+msgid "Wave Particles 2"
+msgstr ""
+
+#: classes/class-shapes.php:45
+msgid "Ellipse Ragged"
+msgstr ""
+
+#: classes/class-shapes.php:52
+msgid "Waves"
+msgstr ""
+
+#: classes/class-shapes.php:59
+msgid "Waves 2"
+msgstr ""
+
+#: classes/class-shapes.php:66
+msgid "Waves 3"
+msgstr ""
+
+#: classes/class-shapes.php:73
+msgid "Waves 4"
+msgstr ""
+
+#: classes/class-shapes.php:80
+msgid "Waves 5"
+msgstr ""
+
+#: classes/class-shapes.php:87
+msgid "Storm"
+msgstr ""
+
+#: classes/class-shapes.php:94
+msgid "Hills"
+msgstr ""
+
+#: classes/class-shapes.php:101
+msgid "Hill"
+msgstr ""
+
+#: classes/class-shapes.php:108
+msgid "Hill 2"
+msgstr ""
+
+#: classes/class-shapes.php:115
+msgid "Tilts"
+msgstr ""
+
+#: classes/class-shapes.php:122
+msgid "Pit"
+msgstr ""
+
+#: classes/class-shapes.php:129
+msgid "Pit Angle"
+msgstr ""
+
+#: classes/class-shapes.php:136
+msgid "Pit Angle Asymm"
+msgstr ""
+
+#: classes/class-shapes.php:143
+msgid "Pit Wave"
+msgstr ""
+
+#: classes/class-shapes.php:150
+msgid "Pit Wave Asymm"
+msgstr ""
+
+#: classes/class-shapes.php:157
+msgid "Waves Cross"
+msgstr ""
+
+#: classes/class-shapes.php:164
+msgid "Waves Cross 2"
+msgstr ""
+
+#: classes/class-shapes.php:171
+msgid "Floor"
+msgstr ""
+
+#: classes/class-shapes.php:178
+msgid "Lines"
+msgstr ""
+
+#: classes/class-shapes.php:185
+msgid "Equalizer"
+msgstr ""
+
+#: classes/class-shapes.php:192
+msgid "Burrow"
+msgstr ""
+
+#: classes/class-shapes.php:199
+msgid "Paint"
+msgstr ""
+
+#: classes/class-shapes.php:206
+msgid "Flame"
+msgstr ""
+
+#: classes/class-shapes.php:213
+msgid "Rock"
+msgstr ""
+
+#: classes/class-shapes.php:220
+msgid "City"
+msgstr ""
+
+#: classes/class-shapes.php:227
+msgid "Fence"
+msgstr ""
+
+#: classes/class-shapes.php:234
+msgid "Diamond"
+msgstr ""
+
+#. translators: %2$s - purchase page.
+#: classes/class-updater.php:37
+msgid "To enable updates, please enter your license key on the <a href=\"%1$s\">Updates</a> page. If you don't have a licence key, please see <a href=\"%2$s\" target=\"_blank\">details & pricing</a>."
+msgstr ""
+
+#: classes/class-updater.php:78
+#: settings/pages/updates.js:165
+msgid "Updates"
+msgstr ""
+
+#: classes/class-updater.php:118
+#: classes/class-updater.php:126
+#: classes/class-updater.php:165
+#: classes/class-updater.php:173
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: classes/class-updater.php:143
+msgid "Purchase code was not specified."
+msgstr ""
+
+#: icon-packs/7-stroke.php:58
+msgid "Pe 7s Icons"
+msgstr ""
+
+#: icon-packs/feather.php:51
+msgid "Feather"
+msgstr ""
+
+#: icon-packs/heroicons-outline.php:53
+msgid "Heroicons Outline"
+msgstr ""
+
+#: icon-packs/heroicons-solid.php:53
+msgid "Heroicons Solid"
+msgstr ""
+
+#: icon-packs/octicons.php:52
+msgid "Octicons"
+msgstr ""
+
+#: icon-packs/unicons.php:53
+msgid "Unicons"
+msgstr ""
+
+#: icon-packs/zwicon.php:54
+msgid "Zwicon"
+msgstr ""
+
+#: blocks/formats/animated-text/index.js:42
+#: blocks/formats/animated-text/index.js:277
+msgid "Animated Text"
+msgstr ""
+
+#: blocks/formats/animated-text/index.js:231
+msgid "Cursor"
+msgstr ""
+
+#: blocks/formats/animated-text/index.js:250
+msgid "Text animation will be only visible on Frontend."
+msgstr ""
+
+#: blocks/formats/animated-text/index.js:260
+msgid "Remove Format"
+msgstr ""
+
+#: blocks/formats/tooltip/index.js:36
+#: blocks/formats/tooltip/index.js:159
+msgid "Tooltip"
+msgstr ""
+
+#: blocks/formats/tooltip/index.js:139
+msgid "Tooltip Text"
+msgstr ""
+
+#: components/typography/index.js:33
+msgid "To use Adobe Fonts you need to add your fonts collections first here - "
+msgstr ""
+
+#: settings/pages/fonts.js:208
+msgid "Adobe Fonts Instructions"
+msgstr ""
+
+#: settings/pages/fonts.js:218
+msgid "Log in to your"
+msgstr ""
+
+#: settings/pages/fonts.js:220
+msgid "Adobe Fonts account"
+msgstr ""
+
+#: settings/pages/fonts.js:223
+msgid "To get your API key, go to"
+msgstr ""
+
+#: settings/pages/fonts.js:225
+msgid "this link"
+msgstr ""
+
+#: settings/pages/fonts.js:228
+msgid "Copy your API key:"
+msgstr ""
+
+#: settings/pages/fonts.js:247
+msgid "Refresh Fonts"
+msgstr ""
+
+#: settings/pages/fonts.js:248
+msgid "Get Projects"
+msgstr ""
+
+#: settings/pages/fonts.js:254
+msgid "Errors"
+msgstr ""
+
+#: settings/pages/fonts.js:272
+msgid "Fonts"
+msgstr ""
+
+#: settings/pages/fonts.js:273
+msgid "Web Project"
+msgstr ""
+
+#: settings/pages/fonts.js:285
+msgid "-- Select Web Project --"
+msgstr ""
+
+#: settings/pages/fonts.js:297
+msgid "Name"
+msgstr ""
+
+#: settings/pages/fonts.js:298
+msgid "Font Family"
+msgstr ""
+
+#: settings/pages/fonts.js:299
+msgid "Font Weight"
+msgstr ""
+
+#: settings/pages/fonts.js:300
+msgid "Font Style"
+msgstr ""
+
+#: settings/pages/updates.js:82
+msgid "License deactivated."
+msgstr ""
+
+#: settings/pages/updates.js:86
+msgid "License activated."
+msgstr ""
+
+#: settings/pages/updates.js:118
+msgid "PRO Addon License Activation"
+msgstr ""
+
+#: settings/pages/updates.js:120
+msgid "To unlock updates, please enter your license key below. If you don't have a licence key, please see"
+msgstr ""
+
+#: settings/pages/updates.js:122
+msgid "details & pricing"
+msgstr ""
+
+#: settings/pages/updates.js:126
+msgid "License Key"
+msgstr ""
+
+#: settings/pages/updates.js:142
+msgid "Deactivate License"
+msgstr ""
+
+#: settings/pages/updates.js:142
+msgid "Activate License"
+msgstr ""

@@ -1,0 +1,174 @@
+
+aside.nk-sidebar {
+    padding-left: 20px;
+
+    .nk-widget-title {
+        margin-bottom: 2.1rem;
+    }
+
+    .nk-widget ~ .nk-widget {
+        margin-top: 45px;
+    }
+
+    @media #{$media_md} {
+        padding-left: 0;
+    }
+}
+
+.nk-widget {
+    overflow: hidden;
+
+    ~ .nk-widget {
+        margin-top: 65px;
+    }
+
+    .nk-widget-title {
+        margin-bottom: 1.3rem;
+        font-family: inherit;
+        font-size: 1.09rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .02em;
+    }
+}
+
+// widgets uses styles from another lib
+// so, no styles here
+
+// Social
+.nk-social {
+    color: $color_titles;
+
+    > ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    > ul li > a {
+        position: relative;
+        display: block;
+        padding: 8px;
+        font-size: 1.13rem;
+        color: inherit;
+        opacity: .4;
+    }
+
+    &.nk-social-left > ul {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    &.nk-social-right > ul {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+}
+.nk-social-2 {
+    padding-bottom: 12px;
+    color: $color_titles;
+
+    > ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    > ul li {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+}
+.nk-social,
+.nk-social-2 {
+
+    > ul li {
+        > a {
+            text-decoration: none;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            transition: .2s;
+
+            > span {
+                position: relative;
+                display: block;
+
+                > span,
+                > svg {
+                    display: block;
+                }
+            }
+            span.nk-social-front,
+            svg.nk-social-front {
+                opacity: 1;
+                -webkit-transition: .2s;
+                -o-transition: .2s;
+                transition: .2s;
+                z-index: 1;
+            }
+            span.nk-social-back,
+            svg.nk-social-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                -webkit-transition: .2s;
+                -o-transition: .2s;
+                transition: .2s;
+                z-index: 2;
+            }
+
+            &:hover,
+            &.hover {
+                opacity: 1;
+
+                span.nk-social-front,
+                svg.nk-social-front {
+                    opacity: 0;
+                }
+                span.nk-social-back,
+                svg.nk-social-back {
+                    opacity: 1;
+                }
+            }
+
+            @each $name, $color in $colors_social {
+                &.nk-social-#{$name} span.nk-social-back,
+                &.nk-social-#{$name} svg.nk-social-back {
+                    color: $color;
+
+                    @if $name == "instagram" {
+                        @supports (-webkit-background-clip: text) {
+                            background: -o-radial-gradient(33% 100%, circle, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+                            background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+                            -webkit-background-clip: text; // stylelint-disable-line
+                            -webkit-text-fill-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.text-white > ul li > a {
+        opacity: .9;
+    }
+}

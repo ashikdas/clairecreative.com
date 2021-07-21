@@ -1,0 +1,9 @@
+body .editor-styles-wrapper .wp-block {
+    max-width: 760px;
+}
+body .editor-styles-wrapper .wp-block[data-align="wide"] {
+    max-width: 1110px;
+}
+body .editor-styles-wrapper .wp-block[data-align="full"] {
+    max-width: none;
+}

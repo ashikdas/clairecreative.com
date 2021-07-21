@@ -1,0 +1,362 @@
+/**
+ * Base styles
+ */
+
+// set background to fix gradient from page border and white background on the dark demos.
+html {
+    background-color: $color_bg;
+
+    &.skylith-html-dark {
+        background-color: $color_dark_main;
+    }
+}
+body {
+    background-color: $color_bg;
+
+    .skylith-html-dark & {
+        background-color: $color_dark_main;
+    }
+}
+
+// address tag
+address {
+    font-style: italic;
+}
+
+// WordPress classes
+.gallery {
+    margin-bottom: 1.6em;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 100%;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-icon img {
+    margin: 0 auto;
+}
+
+.gallery-caption {
+    display: block;
+    padding: .5em 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+.nk-comment.bypostauthor > .nk-comment-meta > .nk-comment-name {
+    padding: 3px 8px;
+    margin-bottom: 2px;
+    background-color: #e8e8e8;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+    text-align: center;
+}
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+    text-align: right;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+    text-align: left;
+}
+.alignfull,
+.alignwide {
+    width: auto;
+    min-width: 100%;
+}
+
+.wp-caption.alignnone,
+img.alignnone,
+.wp-block-button.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption {
+    max-width: 100%;
+    padding: 5px 5px 8px;
+    margin-bottom: 1.6rem;
+    color: #aaa;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+}
+.wp-caption-text {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.wp-block-image img,
+.nk-blog-post img,
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+}
+.nk-post-text .wp-block-image {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+pre h1,
+pre h2,
+pre h3,
+pre h4,
+pre h5,
+pre h6 {
+    color: #fff;
+}
+
+// screen readers
+.screen-reader-text {
+    position: absolute !important;  /* stylelint-disable-line */
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.screen-reader-text:focus {
+    display: block;
+    top: 5px;
+    left: 5px;
+    width: auto;
+    height: auto;
+    padding: 15px 23px 14px;
+    clip: auto !important; /* stylelint-disable-line */
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: normal;
+    color: #21759b;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+            box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+// posts tables
+.entry-content table,
+.nk-comments table {
+    display: block;
+    width: 100%;
+    min-width: 240px;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+.entry-content table th,
+.entry-content table td,
+.nk-comments table th,
+.nk-comments table td {
+    padding: .5em;
+    word-break: break-all;
+    border: 1px solid currentColor;
+}
+
+// fix for some body elements margin + page outline bug.
+.nk-main {
+    padding: .04px;
+}
+
+// additional transition for admin navigation top prop
+.nk-navbar,
+.nk-header-left > .nk-navbar-left,
+.nk-navbar-full,
+.nk-navbar-side {
+    -webkit-transition: .2s background-color, .2s top;
+    -o-transition: .2s background-color, .2s top;
+    transition: .2s background-color, .2s top;
+    will-change: background-color, top;
+}
+.nk-navbar.nk-navbar-fixed {
+    -webkit-transition: .2s transform, .2s visibility, .2s background-color, .2s top;
+    -o-transition: .2s transform, .2s visibility, .2s background-color, .2s top;
+    transition: .2s transform, .2s visibility, .2s background-color, .2s top;
+    will-change: transform, visibility, background-color, top;
+}
+.nk-navbar.nk-navbar-left {
+    -webkit-transition: .2s transform, .2s top;
+    -o-transition: .2s transform, .2s top;
+    transition: .2s transform, .2s top;
+    will-change: transform, top;
+}
+.nk-navbar-cont {
+    -webkit-transition: .2s top, .2s height;
+    -o-transition: .2s top, .2s height;
+    transition: .2s top, .2s height;
+    will-change: top, height;
+}
+
+// page pagination.
+.page-links {
+    margin-top: 1.6rem;
+    margin-right: -2px;
+    margin-left: -2px;
+
+    > span,
+    > a {
+        display: inline-block;
+        min-width: 30px;
+        height: 30px;
+        padding: 0;
+        font-size: .9rem;
+        line-height: 30px;
+        color: $color_text;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        -webkit-transition: .2s color, .2s background-color;
+        -o-transition: .2s color, .2s background-color;
+        transition: .2s color, .2s background-color;
+    }
+    > a:hover {
+        color: $color_main;
+    }
+    > span {
+        margin-right: 6px;
+        margin-left: 6px;
+        color: $color_bg;
+        background-color: $color_main;
+    }
+
+    // fix left padding
+    a:first-child {
+        margin-left: -10px;
+    }
+    span:first-child {
+        margin-left: 0;
+    }
+}
+
+// page tags
+.page-tags {
+    margin-top: 40px;
+    margin-right: -6px;
+    margin-left: -6px;
+
+    > span {
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 6px;
+        font-size: .8rem;
+        font-weight: 600;
+        color: $color_titles;
+        text-transform: uppercase;
+    }
+
+    > a {
+        margin-right: 6px;
+        margin-left: 6px;
+        font-size: .9rem;
+        color: $color_text;
+        text-align: center;
+        text-decoration: none;
+        -webkit-transition: .2s color, .2s background-color;
+        -o-transition: .2s color, .2s background-color;
+        transition: .2s color, .2s background-color;
+
+        &::before {
+            content: "#";
+        }
+    }
+    > a:hover {
+        color: $color_main;
+    }
+}
+
+// title for pages
+.page .entry-header .entry-title {
+    margin-bottom: 30px;
+}
+
+// comments for pages
+.page .entry-content ~ .nk-comments {
+    margin-top: 60px;
+}
+
+// markup styles
+.entry-content,
+.nk-comment-text {
+    color: $color_text_blog;
+
+    > h2,
+    > h3,
+    > h4,
+    > h5,
+    > h6 {
+        margin-top: 45px;
+        margin-bottom: 35px;
+    }
+
+    > img,
+    > a > img {
+
+        width: calc(100% + 440px);
+        margin-top: 30px;
+        margin-right: -220px;
+        margin-bottom: 55px;
+        margin-left: -220px;
+
+        @media #{$media_smaller_md} {
+            width: calc(100% + 320px);
+            margin-right: -160px;
+            margin-left: -160px;
+        }
+
+        @media #{$media_smaller_sm} {
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+}
+.entry-content > p:last-child {
+    margin-bottom: 0;
+}

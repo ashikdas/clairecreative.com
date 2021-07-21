@@ -1,0 +1,26 @@
+
+/* Plain Video */
+.nk-plain-video {
+    > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "object-fit: cover;"; // stylelint-disable-line
+        z-index: 1;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+    > iframe {
+        z-index: 3;
+    }
+
+    > .nk-video-plain-toggle {
+        z-index: 2;
+    }
+}
+.nk-blog-post .nk-plain-video > img {
+    height: 100%;
+}

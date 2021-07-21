@@ -1,0 +1,174 @@
+/*
+ * Sharing Buttons.
+ */
+// Portfolio.
+.nk-portfolio-details .sociality-share,
+.nk-portfolio-launch-site .sociality-share {
+    --sclt-share__gaps: 7px;
+    --sclt-share__margin-x: 0;
+
+    .sociality-icon {
+        display: none;
+    }
+    .sociality-share-name {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .sociality-share-counter {
+        display: none;
+    }
+    .sociality-share-button {
+        color: inherit;
+        -webkit-transition: .2s color;
+        -o-transition: .2s color;
+        transition: .2s color;
+
+        &:hover,
+        &:focus {
+            color: $color_dark_main;
+            text-decoration: none;
+        }
+    }
+
+    .sociality-share-name::after {
+        content: ",";
+        margin-left: 1px;
+        color: $color_text;
+    }
+    .sociality-share-button:last-of-type .sociality-share-name::after {
+        content: none;
+    }
+
+    @each $name, $color in $colors_social {
+        .sociality-share-vendor-#{$name} {
+            &:hover,
+            &:focus {
+                color: $color;
+            }
+        }
+    }
+}
+
+// Portfolio Launch Site
+.nk-portfolio-launch-site {
+    .sociality-share .sociality-share-inner {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 0;
+        font-style: italic;
+    }
+    * + .sociality-share {
+        margin-top: 24px;
+    }
+    .sociality-share-button:hover,
+    .sociality-share-button:focus {
+        opacity: 1;
+    }
+}
+
+// Blog Posts and WooCommerce.
+.hentry > .sociality-share,
+.nk-shop-header-share .sociality-share {
+    --sclt-share__gaps: 0;
+    --sclt-share__margin-x: 0;
+
+    margin-top: 52px;
+
+    .sociality-icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .sociality-share-name {
+        display: block;
+        margin-left: 15px;
+    }
+    .sociality-share-counter {
+        display: none;
+    }
+    .sociality-share-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 20px 5px;
+        font-size: .8rem;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #a5a5a5;
+        -webkit-transition: .2s background-color;
+        -o-transition: .2s background-color;
+        transition: .2s background-color;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    @each $name, $color in $colors_social {
+        .sociality-share-vendor-#{$name} {
+            color: #fff;
+            background-color: $color;
+
+            &:hover,
+            &:focus {
+                background-color: darken($color, 7%);
+            }
+        }
+    }
+}
+
+// WooCommerce.
+.nk-shop-header-share {
+    position: relative;
+
+    .sociality-share {
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        top: 100%;
+        right: 0;
+        width: auto;
+        margin-top: 0;
+        margin-left: -100px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: .2s opacity, .2s visibility;
+        -o-transition: .2s opacity, .2s visibility;
+        transition: .2s opacity, .2s visibility;
+        will-change: opacity, visibility;
+        z-index: 1;
+
+        .sociality-share-button {
+            -webkit-box-flex: 1;
+                -ms-flex: auto;
+                    flex: auto;
+            min-width: 60px;
+        }
+        .sociality-icon {
+            width: 1.3em;
+            height: 1.3em;
+        }
+        .sociality-share-name {
+            display: none;
+        }
+    }
+    &:focus .sociality-share,
+    &:hover .sociality-share {
+        visibility: inherit;
+        opacity: 1;
+    }
+}

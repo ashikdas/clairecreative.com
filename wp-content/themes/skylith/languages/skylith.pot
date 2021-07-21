@@ -1,0 +1,3447 @@
+# Copyright (C) 2020 Skylith
+# This file is distributed under the same license as the Skylith package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Skylith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: nK <https://nkdev.info>\n"
+"Last-Translator: nK <https://nkdev.info>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/skylith/404.php:45
+msgid "404"
+msgstr ""
+
+#: dist/skylith/404.php:72
+msgid "We are sorry. But the page you are looking for cannot be found."
+msgstr ""
+
+#: dist/skylith/404.php:83, dist/skylith/404.php:65
+msgid "Back to Home"
+msgstr ""
+
+#: dist/skylith/404.php:55, dist/skylith/template-parts/content-none.php:48
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: dist/skylith/comments.php:43
+msgid "Comments:"
+msgstr ""
+
+#: dist/skylith/comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: dist/skylith/comments.php:70
+msgid "Older Comments"
+msgstr ""
+
+#: dist/skylith/comments.php:73
+msgid "Newer Comments"
+msgstr ""
+
+#: dist/skylith/comments.php:95
+msgid "Comments are closed."
+msgstr ""
+
+#: dist/skylith/comments.php:126
+msgid "Leave a Comment:"
+msgstr ""
+
+#: dist/skylith/comments.php:126
+msgid "Cancel reply"
+msgstr ""
+
+#: dist/skylith/comments.php:131
+msgid "Your Email"
+msgstr ""
+
+#: dist/skylith/comments.php:134
+msgid "Your Name"
+msgstr ""
+
+#: dist/skylith/comments.php:137
+msgid "Your Website"
+msgstr ""
+
+#: dist/skylith/comments.php:144
+msgid "Comment"
+msgstr ""
+
+#. translators: year.
+#: dist/skylith/footer.php:109
+msgid "All rights reserved &copy; %s"
+msgstr ""
+
+#: dist/skylith/functions.php:97
+msgid "Gold"
+msgstr ""
+
+#: dist/skylith/functions.php:102
+msgid "Yellow"
+msgstr ""
+
+#: dist/skylith/functions.php:107
+msgid "Light Green"
+msgstr ""
+
+#: dist/skylith/functions.php:112
+msgid "Green"
+msgstr ""
+
+#: dist/skylith/functions.php:117
+msgid "Light Blue"
+msgstr ""
+
+#: dist/skylith/functions.php:122
+msgid "Blue"
+msgstr ""
+
+#: dist/skylith/functions.php:127
+msgid "Blue Violet"
+msgstr ""
+
+#: dist/skylith/functions.php:132
+msgid "Dark Violet"
+msgstr ""
+
+#: dist/skylith/functions.php:137
+msgid "Violet"
+msgstr ""
+
+#: dist/skylith/functions.php:142
+msgid "Light Violet"
+msgstr ""
+
+#: dist/skylith/functions.php:147
+msgid "Violet-Pink"
+msgstr ""
+
+#: dist/skylith/functions.php:152
+msgid "Pink"
+msgstr ""
+
+#: dist/skylith/functions.php:157
+msgid "Red"
+msgstr ""
+
+#: dist/skylith/functions.php:162
+msgid "Black"
+msgstr ""
+
+#: dist/skylith/functions.php:167
+msgid "White"
+msgstr ""
+
+#: dist/skylith/functions.php:177
+msgid "Main Menu"
+msgstr ""
+
+#: dist/skylith/functions.php:178
+msgid "Mobile Menu"
+msgstr ""
+
+#: dist/skylith/functions.php:179
+msgid "Social Menu (icons only)"
+msgstr ""
+
+#: dist/skylith/functions.php:245
+msgid "Posts Sidebar"
+msgstr ""
+
+#: dist/skylith/functions.php:247
+msgid "For posts pages."
+msgstr ""
+
+#: dist/skylith/functions.php:256
+msgid "1 Column Footer"
+msgstr ""
+
+#: dist/skylith/functions.php:258
+msgid "For First Column Footer."
+msgstr ""
+
+#: dist/skylith/functions.php:267
+msgid "2 Column Footer"
+msgstr ""
+
+#: dist/skylith/functions.php:269
+msgid "For Second Column Footer."
+msgstr ""
+
+#: dist/skylith/functions.php:278
+msgid "3 Column Footer"
+msgstr ""
+
+#: dist/skylith/functions.php:280
+msgid "For Third Column Footer."
+msgstr ""
+
+#: dist/skylith/functions.php:289
+msgid "4 Column Footer"
+msgstr ""
+
+#: dist/skylith/functions.php:291
+msgid "For Fourth Column Footer."
+msgstr ""
+
+#: dist/skylith/functions.php:300
+msgid "Footer Copyright"
+msgstr ""
+
+#: dist/skylith/functions.php:302
+msgid "For text in the end of the footer."
+msgstr ""
+
+#: dist/skylith/functions.php:313
+msgid "WooCommerce Filters"
+msgstr ""
+
+#: dist/skylith/functions.php:315
+msgid "For products archive page."
+msgstr ""
+
+#: dist/skylith/functions.php:328
+msgid "Fullscreen Menu"
+msgstr ""
+
+#: dist/skylith/functions.php:330
+msgid "For fullscreen menu."
+msgstr ""
+
+#: dist/skylith/functions.php:423
+msgid "Back"
+msgstr ""
+
+#: dist/skylith/functions.php:424
+msgid "Author: {{name}}"
+msgstr ""
+
+#: dist/skylith/ghost-framework/ghost.php:877, dist/skylith/page.php:44, dist/skylith/single.php:44, dist/skylith/template-parts/content-archive.php:90, dist/skylith/template-parts/content-page.php:73, dist/skylith/template-parts/content-single-portfolio.php:36, dist/skylith/template-parts/content.php:104
+msgid "Page"
+msgstr ""
+
+#: dist/skylith/ghost-framework/ghost.php:911
+msgid "Year"
+msgstr ""
+
+#: dist/skylith/ghost-framework/ghost.php:906
+msgid "Day"
+msgstr ""
+
+#: dist/skylith/ghost-framework/ghost.php:1078, dist/skylith/index.php:62
+msgid "Previous"
+msgstr ""
+
+#: dist/skylith/ghost-framework/ghost.php:1079, dist/skylith/index.php:63
+msgid "Next"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:183
+msgid "500px"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:184
+msgid "Accusoft"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:185
+msgid "Acquisitions Incorporated"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:186
+msgid "ADN"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:187
+msgid "Adobe"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:188
+msgid "Adversal"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:189
+msgid "Airbnb"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:190
+msgid "Algolia"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:191
+msgid "Alipay"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:192, dist/skylith/ghost-framework/inc/class-brand-svg.php:228
+msgid "Amazon Pay"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:193
+msgid "Amazon"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:194
+msgid "Amilia"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:195
+msgid "Android"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:196
+msgid "AngelList"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:197
+msgid "Angry Creative"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:198
+msgid "Angular"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:199
+msgid "App Store"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:200
+msgid "Apper"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:201, dist/skylith/ghost-framework/inc/class-brand-svg.php:230
+msgid "Apple Pay"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:202
+msgid "Apple"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:203
+msgid "ArtStation"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:204
+msgid "Asymmetrik"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:205
+msgid "Atlassian"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:206
+msgid "Audible"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:207
+msgid "Autoprefixer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:208
+msgid "Avianex"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:209
+msgid "Aviato"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:210
+msgid "Bandcamp"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:211
+msgid "Battle.net"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:212, dist/skylith/inc/extra.php:162
+msgid "Behance"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:213
+msgid "BIMobject"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:214, dist/skylith/inc/extra.php:167
+msgid "Bitbucket"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:215
+msgid "Bitcoin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:216
+msgid "Bity"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:217
+msgid "Black Tie"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:218
+msgid "BlackBerry"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:219
+msgid "Blogger"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:220
+msgid "Bluetooth"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:221
+msgid "Bootstrap"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:222
+msgid "BTC"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:223
+msgid "Buffer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:224
+msgid "Büromöbel Experte"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:225
+msgid "Buy n Large"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:226
+msgid "BuySellAds"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:227
+msgid "Canadian Gold Maple Leaf"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:229
+msgid "Amex"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:231
+msgid "Diners Club"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:232
+msgid "Discover"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:233
+msgid "JCB"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:234
+msgid "Mastercard"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:235, dist/skylith/ghost-framework/inc/class-brand-svg.php:432, dist/skylith/inc/extra.php:175
+msgid "PayPal"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:236, dist/skylith/ghost-framework/inc/class-brand-svg.php:501
+msgid "Stripe"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:237
+msgid "Visa"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:238
+msgid "Centercode"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:239
+msgid "CentOS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:240
+msgid "Chrome"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:241
+msgid "Chromecast"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:242
+msgid "CloudScale"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:243
+msgid "Cloudsmith"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:244
+msgid "Cloudversify"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:245
+msgid "CodePen"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:246
+msgid "CodiePie"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:247
+msgid "Confluence"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:248
+msgid "Connect Develop"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:249
+msgid "Contao"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:250
+msgid "Cotton Bureau"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:251
+msgid "cPanel"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:252
+msgid "Critical Role"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:253
+msgid "CSS3"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:254
+msgid "Cuttlefish"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:255
+msgid "D&D Beyond"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:256
+msgid "D&D"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:257
+msgid "Dailymotion"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:258
+msgid "Dashcube"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:259
+msgid "Delicious"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:261
+msgid "deploy.dog"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:264
+msgid "Deskpro"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:265
+msgid "Dev"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:266
+msgid "DeviantArt"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:267
+msgid "DHL"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:268
+msgid "Diaspora"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:269
+msgid "Digg"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:270
+msgid "Digital Ocean"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:271
+msgid "Discord"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:272
+msgid "Discourse"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:273
+msgid "DocHub"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:274
+msgid "Docker"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:275
+msgid "Draft2Digital"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:276, dist/skylith/inc/extra.php:169
+msgid "Dribbble"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:277, dist/skylith/inc/extra.php:168
+msgid "Dropbox"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:278
+msgid "Drupal"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:279
+msgid "Dyalog"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:280
+msgid "Earlybirds"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:281
+msgid "eBay"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:282
+msgid "Edge"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:283
+msgid "Elementor"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:284
+msgid "Ello"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:285
+msgid "Ember"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:286
+msgid "Empire"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:287
+msgid "Envira"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:288
+msgid "Erlang"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:289
+msgid "Ethereum"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:290
+msgid "Etsy"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:291
+msgid "Evernote"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:292
+msgid "ExpeditedSSL"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:293
+msgid "Facebook Messenger"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:294, dist/skylith/inc/extra.php:184, dist/skylith/inc/extra.php:156
+msgid "Facebook"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:295
+msgid "Fantasy Flight Games"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:296
+msgid "FedEx"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:297
+msgid "Fedora"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:298
+msgid "Figma"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:299
+msgid "Firefox Browser"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:300
+msgid "Firefox"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:301
+msgid "First Order"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:302
+msgid "Firstdraft"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:303, dist/skylith/inc/extra.php:171
+msgid "Flickr"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:304
+msgid "Flipboard"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:305
+msgid "Fly"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:306
+msgid "Font Awesome"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:307
+msgid "Fonticons"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:308
+msgid "Fort Awesome"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:309
+msgid "Forumbee"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:310, dist/skylith/inc/extra.php:172
+msgid "Foursquare"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:311
+msgid "freeCodeCamp"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:312
+msgid "FreeBSD"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:313
+msgid "Fulcrum"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:314
+msgid "Galactic Republic"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:315
+msgid "Galactic Senate"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:317
+msgid "Pocket"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:320
+msgid "GG"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:321
+msgid "Git"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:322
+msgid "GitHub"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:323
+msgid "GitKraken"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:324
+msgid "GitLab"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:325
+msgid "Gitter"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:326
+msgid "Glide"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:327
+msgid "Gofore"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:328
+msgid "Goodreads"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:329
+msgid "Google Drive"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:330
+msgid "Google Play"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:331, dist/skylith/inc/extra.php:185
+msgid "Google Plus"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:332
+msgid "Google Wallet"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:333
+msgid "Google"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:334
+msgid "Gratipay"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:335
+msgid "Grav"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:336
+msgid "Gripfire"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:337
+msgid "Grunt"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:338
+msgid "Gulp"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:339
+msgid "Hacker News"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:340
+msgid "HackerRank"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:341
+msgid "HIPS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:342
+msgid "HireAHelper"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:343
+msgid "Hornbill"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:344
+msgid "Hotjar"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:345
+msgid "Houzz"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:346
+msgid "HTML5"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:347
+msgid "HubSpot"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:348
+msgid "iDEAL"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:349
+msgid "IMDb"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:350, dist/skylith/inc/extra.php:160
+msgid "Instagram"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:351
+msgid "Intercom"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:353
+msgid "Internet Explorer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:356
+msgid "InVision"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:357
+msgid "IoxHost"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:358
+msgid "itch.io"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:359
+msgid "iTunes"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:360
+msgid "Java"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:361
+msgid "Jedi Order"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:362
+msgid "Jenkins"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:363
+msgid "Jira"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:364
+msgid "Joget"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:365
+msgid "Joomla"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:367
+msgid "JS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:370
+msgid "JSFiddle"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:371
+msgid "Kaggle"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:372
+msgid "Keybase"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:373
+msgid "KeyCDN"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:374
+msgid "Kickstarter"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:375
+msgid "Korvue"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:376
+msgid "Laravel"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:377
+msgid "Last.fm"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:378
+msgid "Leanpub"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:379
+msgid "Less"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:380
+msgid "Line"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:381
+msgid "LinkedIn"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:382
+msgid "Linode"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:383
+msgid "Linux"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:384
+msgid "Lyft"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:385
+msgid "Magento"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:386
+msgid "Mailchimp"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:387
+msgid "Mandalorian"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:389
+msgid "Markdown"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:392
+msgid "Mastodon"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:393
+msgid "MaxCDN"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:394
+msgid "MDB"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:395
+msgid "MedApps"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:396, dist/skylith/inc/extra.php:174
+msgid "Medium"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:397
+msgid "Medrt"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:398
+msgid "Meetup"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:399
+msgid "Megaport"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:400
+msgid "Mendeley"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:401
+msgid "Micro.blog"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:402
+msgid "Microsoft"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:403
+msgid "Mix"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:404
+msgid "Mixcloud"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:405
+msgid "Mixer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:406
+msgid "Mizuni"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:407
+msgid "MODX"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:408
+msgid "Monero"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:409
+msgid "Mapster"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:410
+msgid "Neos"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:411
+msgid "Nimblr"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:412
+msgid "Node.js"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:413
+msgid "Node"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:414
+msgid "npm"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:415
+msgid "NS8"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:416
+msgid "Nutritionix"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:418, dist/skylith/inc/extra.php:163
+msgid "Odnoklassniki"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:421
+msgid "Old Republic"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:422
+msgid "OpenCart"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:423
+msgid "OpenID"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:424
+msgid "Opera"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:425
+msgid "OptinMonster"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:426
+msgid "ORCID"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:427
+msgid "OSI"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:428
+msgid "PAGE4"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:429
+msgid "PageLines"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:430
+msgid "PalFed"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:431
+msgid "Patreon"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:433
+msgid "Penny Arcade"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:434
+msgid "Periscope"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:435
+msgid "Phabricator"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:436
+msgid "Phoenix Framework"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:437
+msgid "Phoenix Squadron"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:438
+msgid "PHP"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:439, dist/skylith/inc/extra.php:187, dist/skylith/inc/extra.php:159
+msgid "Pinterest"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:441
+msgid "PlayStation"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:444
+msgid "Product Hunt"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:445
+msgid "Pushed"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:446
+msgid "Python"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:447
+msgid "QQ"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:448
+msgid "QuinScape"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:449
+msgid "Quora"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:450
+msgid "R"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:451
+msgid "Raspberry Pi"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:452
+msgid "Ravelry"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:453
+msgid "React"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:454
+msgid "ReactEurope"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:455
+msgid "ReadMe"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:456
+msgid "Rebel"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:457
+msgid "Red River"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:458
+msgid "reddit"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:459
+msgid "Red Hat"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:460
+msgid "Renren"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:461
+msgid "Replyd"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:462
+msgid "ResearchGate"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:463
+msgid "Resolving"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:464
+msgid "Rev"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:465
+msgid "Rocket.Chat"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:466
+msgid "Rock RMS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:467
+msgid "Safari"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:468
+msgid "Salesforce"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:469
+msgid "Sass"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:470
+msgid "SCHLIX"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:471
+msgid "Scribd"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:472
+msgid "Searchengin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:473
+msgid "SellCast"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:474
+msgid "Sellsy"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:475
+msgid "ServiceStack"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:476
+msgid "Shirts In Bulk"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:477
+msgid "Shopify"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:478
+msgid "Shopware"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:479
+msgid "SimplyBuilt"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:480
+msgid "SISTRIX"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:481
+msgid "Sith"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:482
+msgid "Sketch"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:483
+msgid "SkyAtlas"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:484, dist/skylith/inc/extra.php:164
+msgid "Skype"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:485, dist/skylith/inc/extra.php:178
+msgid "Slack"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:486
+msgid "SlideShare"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:487
+msgid "Snapchat"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:488, dist/skylith/inc/extra.php:177
+msgid "SoundCloud"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:489
+msgid "Sourcetree"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:490
+msgid "Speakap"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:491
+msgid "Speaker Deck"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:492
+msgid "Spotify"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:493
+msgid "Squarespace"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:494
+msgid "Stack Exchange"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:495
+msgid "Stack Overflow"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:496
+msgid "StackPath"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:497
+msgid "StayLinked"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:498, dist/skylith/inc/extra.php:166
+msgid "Steam"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:499
+msgid "Sticker Mule"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:500
+msgid "Strava"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:502
+msgid "Studio Vinari"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:503
+msgid "StumbleUpon"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:504
+msgid "Superpowers"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:505
+msgid "Supple"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:506
+msgid "SuSE"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:507
+msgid "Swift"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:508
+msgid "Symfony"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:509
+msgid "SeamSpeak"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:510
+msgid "Telegram"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:511
+msgid "Tencent Weibo"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:512
+msgid "The Red Yeti"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:513
+msgid "Themeisle"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:514
+msgid "ThinkPeaks"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:515
+msgid "Trade Federation"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:516
+msgid "Trello"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:517
+msgid "Tripadvisor"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:518, dist/skylith/inc/extra.php:179
+msgid "Tumblr"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:519, dist/skylith/inc/extra.php:153
+msgid "Twitch"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:520, dist/skylith/inc/extra.php:186, dist/skylith/inc/extra.php:158
+msgid "Twitter"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:521
+msgid "TYPO3"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:522
+msgid "Uber"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:523
+msgid "Ubuntu"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:524
+msgid "UIkit"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:525
+msgid "Umbraco"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:526
+msgid "Uniregistry"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:527
+msgid "Unity"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:528
+msgid "Untappd"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:529
+msgid "UPS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:530
+msgid "USPS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:531
+msgid "us-Sunnah"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:532
+msgid "Vaadin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:533
+msgid "Viacoin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:534
+msgid "Viadeo"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:535
+msgid "Viber"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:536, dist/skylith/inc/extra.php:154
+msgid "Vimeo"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:537
+msgid "Vine"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:539, dist/skylith/inc/extra.php:189, dist/skylith/inc/extra.php:165
+msgid "VK"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:542
+msgid "VNV"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:543
+msgid "Vue.js"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:544
+msgid "Waze"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:545
+msgid "Weebly"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:546
+msgid "Weibo"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:547
+msgid "Weixin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:548
+msgid "WhatsApp"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:549
+msgid "WHMCS"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:550
+msgid "Wikipedia"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:551
+msgid "Windows"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:552
+msgid "WIX"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:553
+msgid "Wizards of the Coast"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:554
+msgid "Wolf Pack Battalion"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:555, dist/skylith/inc/extra.php:180
+msgid "WordPress"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:556
+msgid "WPBeginner"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:557
+msgid "WPExplorer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:558
+msgid "WPForms"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:559
+msgid "WPressr"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:560
+msgid "Xbox"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:561
+msgid "XING"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:562
+msgid "YCombinator"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:563
+msgid "Yahoo"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:564
+msgid "Yammer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:565
+msgid "Yandex"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:566
+msgid "Yarn"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:567
+msgid "Yelp"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:568
+msgid "Yoast"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:569, dist/skylith/inc/extra.php:155
+msgid "Youtube"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-brand-svg.php:570
+msgid "Zhihu"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-fonts.php:201
+msgid "Default Fonts Site"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-kirki-control-sidebars.php:46
+msgid "-- Select sidebar --"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:73
+msgid "Mega Menu"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:236
+msgid "sub item"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:251
+msgid "Move up"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:264
+msgid "Move down"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:268
+msgid "Edit menu item"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:268, dist/skylith/inc/comments-walker.php:98, dist/skylith/template-parts/content-archive.php:66
+msgid "Edit"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:277
+msgid "URL"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:286
+msgid "Navigation Label"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:294
+msgid "Title Attribute"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:305
+msgid "Open link in a new tab"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:310
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:318
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:326
+msgid "Description"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:331
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:341
+msgid "Move"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:343
+msgid "Up one"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:345
+msgid "Down one"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:349
+msgid "To the top"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:368, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:135, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:386, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:418, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:443, dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:37, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:50
+msgid "Remove"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/class-menu-backend-walker.php:371
+msgid "Cancel"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:134, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:408, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:136, dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:36, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:49, dist/skylith/inc/theme-options.php:594, dist/skylith/inc/theme-options.php:721, dist/skylith/inc/theme-options.php:1273, dist/skylith/inc/theme-options.php:1502, dist/skylith/inc/theme-options.php:1887, dist/skylith/inc/theme-options.php:3013
+msgid "Default"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:137
+msgid "Select File"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:138
+msgid "Standard Fonts"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:139
+msgid "Google Fonts"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:140
+msgid "CSS Defaults"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-base.php:141
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#. translators: %s represents the label of the row.
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:86
+msgid "Add new %s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#. translators: %s represents the number of rows we're limiting the repeater to allow.
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:227
+msgid "Limit: %s rows"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:376, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:387, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:387, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:419, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:419, dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/php/class-ghost-framework-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:34, dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:39, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:47, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:35, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:38, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/controls/views/image.php:40, dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#. translators: %s represents the field ID where the error occurs.
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-field.php:248
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#. translators: %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-field.php:257, dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-field.php:267
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-field.php:375
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#. translators: The field ID where the error occurs.
+#. translators: The field ID where the error occurs.
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-field.php:498, dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-field.php:509
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-init.php:257
+msgid "We detected you're using Ghost_Framework_Kirki_Init::get_variables(). Please use Ghost_Framework_Kirki_Util::get_variables() instead."
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-init.php:333
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-init.php:336
+msgid "Install Plugin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki-init.php:337
+msgid "Don't show this again"
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/core/class-ghost-framework-kirki.php:237
+msgid "Ghost_Framework_Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/field/class-ghost-framework-kirki-field-color.php:52
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr ""
+
+#: dist/skylith/ghost-framework/inc/kirki/modules/custom-sections/sections/class-ghost-framework-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#. translators: The title.
+#: dist/skylith/ghost-framework/inc/kirki/modules/custom-sections/sections/class-ghost-framework-kirki-sections-nested-section.php:64
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:328
+msgid "Install Required Plugins"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:329
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:331
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:333
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:334
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:341
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:347
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:353
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:359
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:365
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:386
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:387, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:828, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2534, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3581
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:388, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3160
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:389, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2953
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:391
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:393
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:395
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:396
+msgid "Dismiss this notice"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:397
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:398
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:523
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:524
+msgid "Update Required"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:938, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:935
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#. translators: %s: version number
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:1983
+msgid "TGMPA v%s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2274
+msgid "Required"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2277
+msgid "Recommended"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2293
+msgid "WordPress Repository"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2296
+msgid "External Source"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2299
+msgid "Pre-Packaged"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2316
+msgid "Not Installed"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2322
+msgid "Active"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2320
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2334
+msgid "Update recommended"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2331
+msgid "Requires Update"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2328
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2343
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2389
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2393
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2397
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2401
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2491
+msgid "Installed version:"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2499
+msgid "Minimum required version:"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2511
+msgid "Available version:"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2534
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2548
+msgid "Plugin"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2549
+msgid "Source"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2550
+msgid "Type"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2554
+msgid "Version"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2555
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2609
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2615
+msgid "Activate %2$s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2604
+msgid "Install %2$s"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2685
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2718
+msgid "Install"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2724
+msgid "Update"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2727
+msgid "Activate"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2760
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2758
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2803
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2801
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:2935
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3159
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3502
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3504
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3516
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3518
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3518, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3510
+msgid "Show Details"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3518, dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3510
+msgid "Hide Details"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3519
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3521
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3508
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3510
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3511
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3513
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/skylith/ghost-framework/lib/class-tgm-plugin-activation.php:3499
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/skylith/inc/comments-walker.php:118
+msgid "Reply"
+msgstr ""
+
+#: dist/skylith/inc/comments-walker.php:125
+msgid "(Edit)"
+msgstr ""
+
+#: dist/skylith/inc/comments-walker.php:132
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: dist/skylith/inc/comments-walker.php:98
+msgid "Pingback:"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:19, dist/skylith/inc/extend-ghostkit.php:85, dist/skylith/inc/extend-ghostkit.php:103, dist/skylith/inc/extend-ghostkit.php:121, dist/skylith/inc/extend-ghostkit.php:139
+msgid "Skylith 1"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:22
+msgid "Skylith 1 Dark"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:25
+msgid "Skylith 2"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:43
+msgid "Skylith 1 (large, no background)"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:61
+msgid "Skylith 1 (Fullscreen video only)"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:64
+msgid "Skylith 2 (Fullscreen video only)"
+msgstr ""
+
+#: dist/skylith/inc/extend-ghostkit.php:67
+msgid "Skylith 2 White (Fullscreen video only)"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:34
+msgid "Bullets numbers"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:84
+msgid "Skylith Alt 1"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:89
+msgid "Toggle Button"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:92, dist/skylith/inc/extend-visual-portfolio.php:190, dist/skylith/inc/theme-options.php:436, dist/skylith/inc/theme-options.php:593, dist/skylith/inc/theme-options.php:628, dist/skylith/inc/theme-options.php:720, dist/skylith/inc/theme-options.php:755, dist/skylith/inc/theme-options.php:1050, dist/skylith/inc/theme-options.php:1137, dist/skylith/inc/theme-options.php:1272, dist/skylith/inc/theme-options.php:1501, dist/skylith/inc/theme-options.php:1681, dist/skylith/inc/theme-options.php:1768, dist/skylith/inc/theme-options.php:1886, dist/skylith/inc/theme-options.php:2473, dist/skylith/inc/theme-options.php:2489
+msgid "Disabled"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:93, dist/skylith/inc/extend-visual-portfolio.php:191, dist/skylith/inc/theme-options.php:361, dist/skylith/inc/theme-options.php:975, dist/skylith/inc/theme-options.php:1293, dist/skylith/inc/theme-options.php:1606, dist/skylith/inc/theme-options.php:1907, dist/skylith/inc/theme-options.php:2469
+msgid "Show"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:94
+msgid "Show Toggled"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:104, dist/skylith/inc/extend-visual-portfolio.php:132
+msgid "Skylith Alt 2"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:127
+msgid "Skylith Alt"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:155
+msgid "Skylith Default"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:168
+msgid "Skylith Default 2"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:181, dist/skylith/inc/extend-visual-portfolio.php:487, dist/skylith/inc/extend-visual-portfolio.php:546, dist/skylith/inc/extend-visual-portfolio.php:681
+msgid "Show read more button"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:187
+msgid "Show meta background"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:192
+msgid "Show bigger"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:198
+msgid "Meta background color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:218
+msgid "Meta text color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:238
+msgid "Meta title color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:259
+msgid "Skylith Icon"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:272
+msgid "Skylith Fade"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:285, dist/skylith/inc/extend-visual-portfolio.php:381, dist/skylith/inc/extend-visual-portfolio.php:434, dist/skylith/inc/extend-visual-portfolio.php:493, dist/skylith/inc/extend-visual-portfolio.php:608
+msgid "Overlay background color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:298, dist/skylith/inc/extend-visual-portfolio.php:394, dist/skylith/inc/extend-visual-portfolio.php:447, dist/skylith/inc/extend-visual-portfolio.php:506, dist/skylith/inc/extend-visual-portfolio.php:552, dist/skylith/inc/extend-visual-portfolio.php:621
+msgid "Overlay background hover color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:311, dist/skylith/inc/extend-visual-portfolio.php:407, dist/skylith/inc/extend-visual-portfolio.php:460, dist/skylith/inc/extend-visual-portfolio.php:519, dist/skylith/inc/extend-visual-portfolio.php:565, dist/skylith/inc/extend-visual-portfolio.php:634
+msgid "Overlay text color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:325
+msgid "Skylith Fade Symbol"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:338
+msgid "Show meta type"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:349
+msgid "Show first letter"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:361
+msgid "First letter color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:421
+msgid "Skylith Fade Plus-Icon"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:474
+msgid "Skylith Fade Button"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:533
+msgid "Skylith Fade Border"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:579
+msgid "Skylith Fade Title Outside"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:592
+msgid "Title Negative Position"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:647
+msgid "Overlay text hover color"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:661
+msgid "Skylith Wide"
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:675
+msgid "Note: This style works ok only with 1-column layouts."
+msgstr ""
+
+#: dist/skylith/inc/extend-visual-portfolio.php:702
+msgid "Hover Tilt Effect"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:188, dist/skylith/inc/extra.php:161
+msgid "Linkedin"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:157
+msgid "Google-plus"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:170
+msgid "Deviantart"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:173
+msgid "Github"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:176
+msgid "Reddit"
+msgstr ""
+
+#. translators: %s - query.
+#: dist/skylith/inc/extra.php:282
+msgid "Search Results for: \"%s\" Query"
+msgstr ""
+
+#. translators: %s - number of comments.
+#. translators: %s - number of comments.
+#: dist/skylith/inc/extra.php:317, dist/skylith/template-parts/content.php:69
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s - author name.
+#. translators: %s - author name.
+#. translators: %s - author name.
+#: dist/skylith/inc/extra.php:324, dist/skylith/template-parts/content-archive.php:74, dist/skylith/template-parts/content.php:76
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:401, dist/skylith/visual-portfolio/items-list/items-style/skylith-default-2/meta.php:110, dist/skylith/visual-portfolio/items-list/items-style/skylith-fade-4/meta.php:60, dist/skylith/visual-portfolio/items-list/items-style/skylith-fade-5/meta.php:92, dist/skylith/visual-portfolio/items-list/items-style/skylith-wide/meta.php:121
+msgid "Read More"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:417
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:419
+msgid "Type password"
+msgstr ""
+
+#: dist/skylith/inc/extra.php:420
+msgid "Enter"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:28
+msgid "Skylith Promo"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:68
+msgid "Classic Agency"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:78
+msgid "Minimal Photography"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:96
+msgid "Minimal Split Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:120
+msgid "Creative Outline Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:138
+msgid "Dark Creative Agency"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:157
+msgid "Architecture & Interior"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:187
+msgid "Designer Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:214
+msgid "Minimal Agency"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:238
+msgid "Dark Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:248
+msgid "Minimal Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:258
+msgid "Digital Agency Fullscreen"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:268
+msgid "Creative Portfolio Text"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:287
+msgid "Creative Agency"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:310
+msgid "Creative Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:328
+msgid "Creative Freelancer"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:346
+msgid "Minimal Agency 2"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:356
+msgid "Video Gallery"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:365
+msgid "Dark Photographer"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:375
+msgid "Minimal One Page"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:394
+msgid "Business One Page"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:413
+msgid "Minimal Shop"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:423
+msgid "Creative Agency 2"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:441
+msgid "Creative Developer Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:460
+msgid "Dark Fullscreen Agency"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:470
+msgid "Photographer Fullscreen"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:488
+msgid "Dark Fullscreen Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:507
+msgid "Modern Dark Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:525
+msgid "Carousel Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:552
+msgid "Modern Fullscreen Portfolio"
+msgstr ""
+
+#: dist/skylith/inc/framework-init.php:576
+msgid "Fullscreen Slider"
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/fullpage.php:447, dist/skylith/inc/lazy-blocks/fullscreen-works-split.php:237, dist/skylith/inc/lazy-blocks/slider.php:742
+msgid "No slides selected."
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/hover-portfolio.php:217, dist/skylith/inc/lazy-blocks/hover-portfolio.php:270
+msgid "No items added."
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/launch-site.php:108, dist/skylith/inc/lazy-blocks/portfolio-meta.php:171
+msgid "Output of [sociality_sharing] shortcode."
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/members.php:196
+msgid "No members added."
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/members.php:258, dist/skylith/inc/lazy-blocks/photos-slideshow.php:205
+msgid "No photos selected."
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/portfolio-meta.php:114, dist/skylith/inc/lazy-blocks/portfolio-meta.php:152
+msgid "Client:"
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/portfolio-meta.php:120, dist/skylith/inc/lazy-blocks/portfolio-meta.php:158
+msgid "Link:"
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/portfolio-meta.php:126, dist/skylith/inc/lazy-blocks/portfolio-meta.php:164
+msgid "Date:"
+msgstr ""
+
+#: dist/skylith/inc/lazy-blocks/portfolio-meta.php:132, dist/skylith/inc/lazy-blocks/portfolio-meta.php:170
+msgid "Share:"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:44
+msgid "General"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:53
+msgid "Single Page"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:60, dist/skylith/inc/theme-options.php:83, dist/skylith/inc/theme-options.php:106, dist/skylith/inc/theme-options.php:129, dist/skylith/inc/theme-options.php:153, dist/skylith/inc/theme-options.php:534, dist/skylith/inc/theme-options.php:1210, dist/skylith/inc/theme-options.php:1438, dist/skylith/inc/theme-options.php:1824, dist/skylith/inc/theme-options.php:2052
+msgid "Content"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:67, dist/skylith/inc/theme-options.php:90, dist/skylith/inc/theme-options.php:113, dist/skylith/inc/theme-options.php:136, dist/skylith/inc/theme-options.php:160
+msgid "Header"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:76
+msgid "Single Post"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:99
+msgid "Single Portfolio Item"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:122
+msgid "Archive"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:145
+msgid "Search"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:169
+msgid "404 Page"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:179
+msgid "Preloader"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:189
+msgid "Custom Colors"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:199
+msgid "Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:207
+msgid "Main Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:214
+msgid "Side Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:221
+msgid "Fullscreen Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:228
+msgid "Social Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:237
+msgid "Footer"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:251
+msgid "Dark content"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:261, dist/skylith/inc/theme-options.php:3592
+msgid "Scroll top button"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:271
+msgid "Page border"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:281
+msgid "Border color 1"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:313
+msgid "Border color 2"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:345
+msgid "Left Side Image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:371, dist/skylith/inc/theme-options.php:985, dist/skylith/inc/theme-options.php:1303, dist/skylith/inc/theme-options.php:1616, dist/skylith/inc/theme-options.php:1917
+msgid "Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:377, dist/skylith/inc/theme-options.php:991, dist/skylith/inc/theme-options.php:1309, dist/skylith/inc/theme-options.php:1622, dist/skylith/inc/theme-options.php:1923
+msgid "Small Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:378, dist/skylith/inc/theme-options.php:992, dist/skylith/inc/theme-options.php:1310, dist/skylith/inc/theme-options.php:1623, dist/skylith/inc/theme-options.php:1924
+msgid "Mid Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:379, dist/skylith/inc/theme-options.php:993, dist/skylith/inc/theme-options.php:1311, dist/skylith/inc/theme-options.php:1624, dist/skylith/inc/theme-options.php:1925
+msgid "Large Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:380, dist/skylith/inc/theme-options.php:994, dist/skylith/inc/theme-options.php:1312, dist/skylith/inc/theme-options.php:1625, dist/skylith/inc/theme-options.php:1926
+msgid "X-Large Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:381, dist/skylith/inc/theme-options.php:995, dist/skylith/inc/theme-options.php:1313, dist/skylith/inc/theme-options.php:1626, dist/skylith/inc/theme-options.php:1927
+msgid "Full Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:396, dist/skylith/inc/theme-options.php:1010, dist/skylith/inc/theme-options.php:1328, dist/skylith/inc/theme-options.php:1641, dist/skylith/inc/theme-options.php:1942
+msgid "Parallax for Background Image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:413, dist/skylith/inc/theme-options.php:1027, dist/skylith/inc/theme-options.php:1345, dist/skylith/inc/theme-options.php:1658, dist/skylith/inc/theme-options.php:1959
+msgid "Parallax for Content"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:430, dist/skylith/inc/theme-options.php:1675
+msgid "Select Type of Background Image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:437, dist/skylith/inc/theme-options.php:1051, dist/skylith/inc/theme-options.php:1682
+msgid "Featured"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:438, dist/skylith/inc/theme-options.php:1052, dist/skylith/inc/theme-options.php:1139, dist/skylith/inc/theme-options.php:1683, dist/skylith/inc/theme-options.php:1770
+msgid "Custom"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:453, dist/skylith/inc/theme-options.php:1067, dist/skylith/inc/theme-options.php:1362, dist/skylith/inc/theme-options.php:1698, dist/skylith/inc/theme-options.php:1976
+msgid "Background Image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:475, dist/skylith/inc/theme-options.php:1089, dist/skylith/inc/theme-options.php:1379, dist/skylith/inc/theme-options.php:1720, dist/skylith/inc/theme-options.php:1993
+msgid "Overlay Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:496, dist/skylith/inc/theme-options.php:1110, dist/skylith/inc/theme-options.php:1400, dist/skylith/inc/theme-options.php:1741, dist/skylith/inc/theme-options.php:2014
+msgid "Custom Text Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:517, dist/skylith/inc/theme-options.php:1193, dist/skylith/inc/theme-options.php:1421, dist/skylith/inc/theme-options.php:1807, dist/skylith/inc/theme-options.php:2035
+msgid "Sub Title"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:551, dist/skylith/inc/theme-options.php:1227, dist/skylith/inc/theme-options.php:1455, dist/skylith/inc/theme-options.php:1841, dist/skylith/inc/theme-options.php:2069
+msgid "Video Link"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:554, dist/skylith/inc/theme-options.php:1230, dist/skylith/inc/theme-options.php:1457, dist/skylith/inc/theme-options.php:1844, dist/skylith/inc/theme-options.php:2071
+msgid "Supported YouTube and Vimeo video link"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:569, dist/skylith/inc/theme-options.php:1245, dist/skylith/inc/theme-options.php:1473, dist/skylith/inc/theme-options.php:1859, dist/skylith/inc/theme-options.php:2087
+msgid "Scroll Down Button"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:587, dist/skylith/inc/theme-options.php:714, dist/skylith/inc/theme-options.php:1266, dist/skylith/inc/theme-options.php:1495, dist/skylith/inc/theme-options.php:1880
+msgid "Boxed"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:595, dist/skylith/inc/theme-options.php:722, dist/skylith/inc/theme-options.php:1274, dist/skylith/inc/theme-options.php:1503, dist/skylith/inc/theme-options.php:1888, dist/skylith/inc/theme-options.php:3483
+msgid "Small"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:603, dist/skylith/inc/theme-options.php:1511
+msgid "Top and Bottom paddings"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:613, dist/skylith/inc/theme-options.php:740
+msgid "Show Featured Image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:623, dist/skylith/inc/theme-options.php:750
+msgid "Featured Image Stretch"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:629, dist/skylith/inc/theme-options.php:756
+msgid "Wide"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:630, dist/skylith/inc/theme-options.php:757
+msgid "Full"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:647, dist/skylith/inc/theme-options.php:774
+msgid "Featured Image Position"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:651, dist/skylith/inc/theme-options.php:778
+msgid "Before Title"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:652, dist/skylith/inc/theme-options.php:779
+msgid "Before Content"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:669, dist/skylith/inc/theme-options.php:796, dist/skylith/inc/theme-options.php:1282, dist/skylith/inc/theme-options.php:1521, dist/skylith/inc/theme-options.php:1896
+msgid "Show Title"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:679, dist/skylith/inc/theme-options.php:931
+msgid "Show Sidebar"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:683, dist/skylith/inc/theme-options.php:935
+msgid "None"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:684, dist/skylith/inc/theme-options.php:822, dist/skylith/inc/theme-options.php:936, dist/skylith/inc/theme-options.php:2646, dist/skylith/inc/theme-options.php:2929, dist/skylith/inc/theme-options.php:2960, dist/skylith/inc/theme-options.php:3045, dist/skylith/inc/theme-options.php:3267, dist/skylith/inc/theme-options.php:3554
+msgid "Right"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:685, dist/skylith/inc/theme-options.php:820, dist/skylith/inc/theme-options.php:937, dist/skylith/inc/theme-options.php:2477, dist/skylith/inc/theme-options.php:2644, dist/skylith/inc/theme-options.php:2928, dist/skylith/inc/theme-options.php:2958, dist/skylith/inc/theme-options.php:3043, dist/skylith/inc/theme-options.php:3265, dist/skylith/inc/theme-options.php:3552
+msgid "Left"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:693, dist/skylith/inc/theme-options.php:945
+msgid "Sidebar"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:730
+msgid "Top padding"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:806, dist/skylith/inc/theme-options.php:1176
+msgid "Show Meta"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:816
+msgid "Centering of Title and Meta"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:821, dist/skylith/inc/theme-options.php:2645, dist/skylith/inc/theme-options.php:2959, dist/skylith/inc/theme-options.php:3044, dist/skylith/inc/theme-options.php:3266, dist/skylith/inc/theme-options.php:3462, dist/skylith/inc/theme-options.php:3553
+msgid "Center"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:856, dist/skylith/inc/theme-options.php:1531
+msgid "Show Pagination"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:866
+msgid "Paginations Archive Page URL"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:883, dist/skylith/inc/theme-options.php:1558
+msgid "Pagination Background"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:906, dist/skylith/inc/theme-options.php:1581
+msgid "Pagination Text Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:961
+msgid "Comments Style"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:965
+msgid "Style 1"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:966
+msgid "Style 2"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:1044
+msgid "Type of Background Image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:1131, dist/skylith/inc/theme-options.php:1762
+msgid "Title Type"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:1138, dist/skylith/inc/theme-options.php:1769
+msgid "Post Title"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:1154, dist/skylith/inc/theme-options.php:1785
+msgid "Title"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:1541
+msgid "Pagination Portfolio Archive Page URL"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2108, dist/skylith/inc/theme-options.php:2946, dist/skylith/inc/theme-options.php:3031, dist/skylith/inc/theme-options.php:3126
+msgid "Background image"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2116
+msgid "Show Text"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2126
+msgid "Show Search"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2136
+msgid "Show Home Button"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2151
+msgid "Show Preloader"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2161
+msgid "Logo"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2177, dist/skylith/inc/theme-options.php:2558, dist/skylith/inc/theme-options.php:2618
+msgid "Logo width"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2220
+msgid "Preloader Dark Spinner"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2237, dist/skylith/inc/theme-options.php:2395
+msgid "Background Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2299
+msgid "Enable custom colors"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2310
+msgid "Main Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2327
+msgid "Secondary Color (optional for gradients)"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2344
+msgid "Text Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2361
+msgid "Content Text Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2378
+msgid "Titles Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2412
+msgid "Dark Content Text Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2429
+msgid "Dark Content Titles Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2446
+msgid "Main Dark Color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2289
+msgid "Required PHP version 5.4 or higher"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2277
+msgid "Required Theme License Activation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2279
+msgid "Custom styles can only be used in the activated theme. Please visit the <a href=\"%s\" target=\"_blank\">theme dashboard page</a> and activate the theme."
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2266
+msgid "Required Plugin"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2267
+msgid "To generate custom styles you need to install nK Themes Helper plugin"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2474
+msgid "Top"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2475
+msgid "Top Fullscreen"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2476
+msgid "Top Side"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2485
+msgid "Mobile Menu Type"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2490
+msgid "Fullscreen"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2491, dist/skylith/inc/theme-options.php:2924
+msgid "Side"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2516, dist/skylith/inc/theme-options.php:2586
+msgid "Logo Dark"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2537, dist/skylith/inc/theme-options.php:2602
+msgid "Logo Light"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2640, dist/skylith/inc/theme-options.php:2954, dist/skylith/inc/theme-options.php:3039
+msgid "Items align"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2661, dist/skylith/inc/theme-options.php:2937, dist/skylith/inc/theme-options.php:3022
+msgid "Dark navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2677
+msgid "Opaque"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2693
+msgid "Collapsed items"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2709
+msgid "Large height"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2725
+msgid "Large width"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2741
+msgid "Sticky"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2762
+msgid "Auto hide on scroll"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2788
+msgid "Transparent"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2809
+msgid "Transparent always"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2835
+msgid "White text on top"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2856
+msgid "In container"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2879, dist/skylith/inc/theme-options.php:2977, dist/skylith/inc/theme-options.php:3053
+msgid "Items effect"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2883, dist/skylith/inc/theme-options.php:2903, dist/skylith/inc/theme-options.php:2981, dist/skylith/inc/theme-options.php:2994, dist/skylith/inc/theme-options.php:3057, dist/skylith/inc/theme-options.php:3070
+msgid "Effect 1"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2884, dist/skylith/inc/theme-options.php:2904, dist/skylith/inc/theme-options.php:2982, dist/skylith/inc/theme-options.php:2995, dist/skylith/inc/theme-options.php:3058, dist/skylith/inc/theme-options.php:3071
+msgid "Effect 2"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2899, dist/skylith/inc/theme-options.php:2990, dist/skylith/inc/theme-options.php:3066
+msgid "Dropdown effect"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:2968, dist/skylith/inc/theme-options.php:3485
+msgid "Large"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3009
+msgid "Style"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3014
+msgid "Widgetized"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3085
+msgid "Show in Top Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3094
+msgid "Show in Left Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3103
+msgid "Show in Fullscreen Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3112
+msgid "Show in Side Navigation"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3134
+msgid "Background image overlay"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3153
+msgid "Titles color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3189
+msgid "Text color"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3217
+msgid "Widgets"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3227
+msgid "Widgets container padding"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3261
+msgid "Widgets Text align"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3289
+msgid "Widget 1 Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3310
+msgid "Widget 2 Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3331
+msgid "Widget 3 Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3352
+msgid "Widget 4 Size"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3373
+msgid "Select Sidebar For 1 Col"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3394
+msgid "Select Sidebar For 2 Col"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3415
+msgid "Select Sidebar For 3 Col"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3436
+msgid "Select Sidebar For 4 Col"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3457
+msgid "Widgets vertical align"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3461
+msgid "Start"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3463
+msgid "End"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3478
+msgid "Widgets gap"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3482
+msgid "Extra Small"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3484
+msgid "Normal"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3486
+msgid "Extra Large"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3503
+msgid "Copyright section"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3514
+msgid "Copyright container padding"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3548
+msgid "Copyright Text align"
+msgstr ""
+
+#: dist/skylith/inc/theme-options.php:3576
+msgid "Select Sidebar For Copyright Section"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:12
+msgid "Body"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:55
+msgid "HTML"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:82
+msgid "Buttons"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:133
+msgid "Additional Items"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:191
+msgid "Blockquotes"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:226
+msgid "Headings"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:317
+msgid "H1"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:343
+msgid "H2"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:368
+msgid "H3"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:393
+msgid "H4"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:418
+msgid "H5"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:443
+msgid "H6"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:473
+msgid "Display 1"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:491
+msgid "Display 2"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:509
+msgid "Display 3"
+msgstr ""
+
+#: dist/skylith/inc/typography.php:527
+msgid "Display 4"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:70
+msgid "Back to Shop"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:83
+msgid "Filter"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:84
+msgid "Hide Filter"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:90
+msgid "Share This"
+msgstr ""
+
+#. translators: %s - cart count.
+#: dist/skylith/inc/woocommerce.php:150
+msgid "Items in Your Cart: %s"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:258
+msgid "Sale!"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:256
+msgid "Sale %s"
+msgstr ""
+
+#: dist/skylith/inc/woocommerce.php:400
+msgid "Add a Review"
+msgstr ""
+
+#: dist/skylith/page.php:42, dist/skylith/single.php:42
+msgid "Previous page"
+msgstr ""
+
+#: dist/skylith/page.php:43, dist/skylith/single.php:43
+msgid "Next page"
+msgstr ""
+
+#: dist/skylith/searchform.php:10
+msgid "Search..."
+msgstr ""
+
+#: dist/skylith/template-parts/content-none.php:20
+msgid "Nothing Found"
+msgstr ""
+
+#: dist/skylith/template-parts/content-none.php:55
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: dist/skylith/template-parts/content-none.php:34
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: dist/skylith/template-parts/content-page.php:58
+msgid "Continue reading %s"
+msgstr ""
+
+#: dist/skylith/template-parts/content-single-portfolio.php:71
+msgid "Previous Project"
+msgstr ""
+
+#: dist/skylith/template-parts/content-single-portfolio.php:85
+msgid "Next Project"
+msgstr ""
+
+#: dist/skylith/template-parts/content.php:114
+msgid "Tags:"
+msgstr ""
+
+#: dist/skylith/template-parts/content.php:136
+msgid "Previous Post"
+msgstr ""
+
+#: dist/skylith/template-parts/content.php:150
+msgid "Next Post"
+msgstr ""
+
+#. translators: %s - comments count.
+#: dist/skylith/visual-portfolio/items-list/items-style/skylith-wide/meta.php:91
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""

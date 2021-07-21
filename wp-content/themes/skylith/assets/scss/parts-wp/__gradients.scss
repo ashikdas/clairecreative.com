@@ -1,0 +1,72 @@
+@if type_of($color_secondary) == color {
+    // main button
+    .nk-btn-color-main {
+        position: relative;
+        z-index: 1;
+
+        @if (color_luminance($color_main) > .5) {
+            color: $color_dark_1 !important; // stylelint-disable-line
+        } @else {
+            color: #fff !important; // stylelint-disable-line
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            background-color: $color_main;
+            background-image: -webkit-gradient(linear, left top, right top, from($color_main), to($color_secondary));
+            background-image: -o-linear-gradient(left, $color_main 0%, $color_secondary 100%);
+            background-image: linear-gradient(90deg, $color_main 0%, $color_secondary 100%);
+            z-index: -2;
+        }
+    }
+    .nk-btn-hover-color-main {
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            background-color: darken($color_main, 7%);
+            background-image: -webkit-gradient(linear, left top, right top, from(darken($color_main, 7%)), to(darken($color_secondary, 7%)));
+            background-image: -o-linear-gradient(left, darken($color_main, 7%) 0%, darken($color_secondary, 7%) 100%);
+            background-image: linear-gradient(90deg, darken($color_main, 7%) 0%, darken($color_secondary, 7%) 100%);
+            opacity: 0;
+            -webkit-transition: .2s opacity;
+            -o-transition: .2s opacity;
+            transition: .2s opacity;
+            z-index: -1;
+        }
+    }
+    .nk-btn-hover-color-main,
+    .nk-btn-hover-color-main.nk-btn-outline {
+        &:hover,
+        &.hover,
+        &:active,
+        &.active,
+        &:focus {
+            &:not(.disabled),
+            &:not([disabled]) {
+                @if (color_luminance(darken($color_main, 7%)) > .5) {
+                    color: $color_dark_1 !important; // stylelint-disable-line
+                } @else {
+                    color: #fff !important; // stylelint-disable-line
+                }
+
+                &::after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

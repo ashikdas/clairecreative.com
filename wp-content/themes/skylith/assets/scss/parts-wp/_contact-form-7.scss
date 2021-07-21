@@ -1,0 +1,23 @@
+// error.
+.form-control + .wpcf7-not-valid-tip {
+    margin-top: 5px;
+    font-size: .9em;
+    color: #d05e5e;
+}
+.form-control.wpcf7-not-valid {
+    border-color: #f5cece;
+}
+
+// alert.
+div.wpcf7-response-output {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+    border-color: $color_main;
+}

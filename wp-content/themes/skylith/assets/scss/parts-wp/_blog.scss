@@ -1,0 +1,303 @@
+/* Archive sticky post indicator */
+.nk-isotope-item.sticky .nk-post-title::before {
+    content: "\e69b";
+    display: inline-block;
+    margin-right: 5px;
+    font-family: "Pe-icon-7-stroke"; /* stylelint-disable-line */
+    font-size: .8em;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Post edit link */
+.nk-post-title {
+    position: relative;
+}
+.nk-post-title .edit-link {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 2;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .3s .3s opacity, .3s .3s visibility;
+    -o-transition: .3s .3s opacity, .3s .3s visibility;
+    transition: .3s .3s opacity, .3s .3s visibility;
+}
+.nk-isotope-item:hover .nk-post-title .edit-link {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Entry header additional margin depending on options */
+.nk-post-img,
+.nk-post-video,
+.alignfull,
+.alignwide {
+    + .entry-header h1,
+    + .entry-header h2 {
+        margin-top: 35px;
+    }
+}
+
+/* Read More tag */
+.more-link {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-top: 30px;
+    font-family: inherit;
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border: 2px solid #d9d9d9;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: #3a3a3a;
+        border-color: #3a3a3a;
+    }
+}
+
+/* Better spacing when user logged in */
+#commentform {
+    .logged-in-as {
+        margin-top: -20px;
+        margin-bottom: 0;
+    }
+}
+
+/* Archive Pagination */
+.ghost-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+    > :first-child:not(.nk-pagination-prev) {
+        padding-left: 119px;
+        margin-left: auto;
+    }
+    > :last-child:not(.nk-pagination-next) {
+        padding-right: 119px;
+        margin-right: auto;
+    }
+    .nk-pagination-prev {
+        margin-right: auto;
+        opacity: 1;
+    }
+    .nk-pagination-next {
+        margin-left: auto;
+    }
+    .nk-pagination-item-current {
+        opacity: 1;
+    }
+
+    > * {
+        display: inline-block;
+        padding: 19px;
+        font-size: .9rem;
+        font-weight: 600;
+        color: inherit;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: middle;
+        opacity: .3;
+        -webkit-transition: .2s opacity, .2s color;
+        -o-transition: .2s opacity, .2s color;
+        transition: .2s opacity, .2s color;
+
+        &.nk-pagination-prev,
+        &.nk-pagination-next {
+            opacity: 1;
+
+            &:hover {
+                color: $color_main;
+            }
+        }
+
+        &:hover {
+            color: inherit;
+            text-decoration: none;
+            opacity: 1;
+        }
+    }
+    .nk-pagination-next,
+    .nk-pagination-prev,
+    .container & .nk-pagination-next,
+    .container & .nk-pagination-prev {
+        min-width: 100px;
+    }
+
+    @media #{$media_xs} {
+        > * {
+            padding: 10px;
+        }
+        > :first-child:not(.nk-pagination-prev) {
+            padding-left: 10px;
+        }
+        > :last-child:not(.nk-pagination-next) {
+            padding-right: 10px;
+        }
+
+        .nk-pagination-next,
+        .nk-pagination-prev,
+        .container & .nk-pagination-next,
+        .container & .nk-pagination-prev {
+            min-width: auto;
+        }
+    }
+}
+
+// pagination.
+.nk-pagination .container .nk-pagination-next,
+.nk-pagination .container .nk-pagination-prev {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 600;
+}
+.nk-pagination .container .nk-pagination-next {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.nk-pagination .container .nk-pagination-next > span,
+.nk-pagination .container .nk-pagination-prev > span,
+.nk-pagination .nk-pagination-next > span,
+.nk-pagination .nk-pagination-prev > span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1rem !important; // stylelint-disable-line
+}
+.nk-pagination .container .nk-pagination-prev > span,
+.nk-pagination .nk-pagination-prev > span {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/* Post meta */
+.nk-post-meta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+    > div {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+    > div + div::before {
+        margin: 0 6px;
+    }
+
+    &.nk-post-meta-center {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    &.nk-post-meta-right {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+}
+
+.nk-comments {
+    position: relative;
+
+    .nk-comment-meta {
+        margin-bottom: 1.4rem;
+    }
+
+    // fix comments meta on mobile devices.
+    @media #{$media_xxs} {
+        .nk-comment-cont .nk-comment-meta > div {
+            display: block;
+            width: 100%;
+            margin: 0;
+            margin-top: 5px;
+        }
+    }
+
+    &.nk-comments-style-2 {
+        margin-top: 40px;
+    }
+
+    // reply background.
+    > .bg-color {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+    }
+
+    .nk-comment-pingback {
+        a {
+            color: $color_titles;
+            -webkit-transition: .2s color;
+            -o-transition: .2s color;
+            transition: .2s color;
+
+            &.url {
+                font-weight: 600;
+            }
+
+            &:hover,
+            &:focus {
+                color: $color_main;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .nk-comment + .nk-comment {
+        padding-top: 40px;
+    }
+}
+
+// respond form
+.comment-respond {
+    width: 100%;
+
+    .nk-comment + & {
+        margin-top: 40px;
+    }
+
+    .nk-comment & {
+        padding-left: 100px;
+
+        @media #{$media_smaller_md} {
+            padding-left: 50px;
+        }
+    }
+}

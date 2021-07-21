@@ -1,0 +1,15 @@
+/**
+ * Element pagination.
+ */
+
+.nk-pagination {
+    width: auto;
+
+    .entry-content ~ & {
+        margin-top: 60px;
+    }
+    .nk-reply ~ &,
+    .nk-comments ~ & {
+        margin-top: 0;
+    }
+}

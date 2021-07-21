@@ -1,0 +1,29 @@
+$gutenberg-colors: (
+    "gold"          : #b9a186,
+    "main"          : #b9a186,
+    "yellow"        : #fbda03,
+    "light-green"   : #00ffa2,
+    "green"         : #2bb569,
+    "light-blue"    : #148ff3,
+    "blue"          : #3202ff,
+    "blue-violet"   : #5223e9,
+    "dark-violet"   : #480086,
+    "violet"        : #8536ce,
+    "light-violet"  : #a074dc,
+    "violet-pink"   : #d086d3,
+    "pink"          : #ea2f5c,
+    "red"           : #cc1139,
+    "black"         : #000,
+    "white"         : #fff,
+) !default;
+
+
+// Color classes.
+@each $name, $color in $gutenberg-colors {
+    .has-skylith-#{$name}-color {
+        color: $color;
+    }
+    .has-skylith-#{$name}-background-color {
+        background-color: $color;
+    }
+}

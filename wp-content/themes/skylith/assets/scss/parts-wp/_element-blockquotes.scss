@@ -1,0 +1,7 @@
+// style 2
+blockquote.nk-blockquote-style-2 {
+    &:not(.is-large):not(.is-style-large) {
+        padding-left: 50px;
+        border-left: none;
+    }
+}

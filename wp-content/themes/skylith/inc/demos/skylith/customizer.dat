@@ -1,0 +1,39 @@
+a:4:{s:8:"template";s:7:"skylith";s:4:"mods";a:29:{i:0;b:0;s:18:"nav_menu_locations";a:4:{s:8:"top_menu";i:16;s:15:"fullscreen_menu";i:16;s:11:"social_menu";i:34;s:11:"mobile_menu";i:16;}s:18:"custom_css_post_id";i:290;s:16:"sidebars_widgets";a:2:{s:4:"time";i:1529140449;s:4:"data";a:7:{s:19:"wp_inactive_widgets";a:0:{}s:12:"sidebar-post";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:23:"sidebar-fullscreen-menu";a:0:{}s:16:"sidebar-footer-1";a:0:{}s:16:"sidebar-footer-2";a:0:{}s:16:"sidebar-footer-3";a:0:{}s:16:"sidebar-footer-4";a:0:{}}}s:13:"custom_colors";b:1;s:24:"custom_colors_color_main";s:7:"#00c189";s:22:"main_navigation_sticky";b:1;s:24:"main_navigation_autohide";b:1;s:22:"single_page_show_title";b:0;s:20:"single_page_paddings";b:0;s:22:"single_portfolio_boxed";s:6:"normal";s:25:"single_portfolio_paddings";b:0;s:27:"single_portfolio_show_title";b:0;s:17:"footer_text_color";s:7:"#ffffff";s:23:"single_post_archive_url";s:45:"https://wp.nkdev.info/skylith/blog-3-columns/";s:28:"single_portfolio_archive_url";s:58:"https://wp.nkdev.info/skylith/portfolio-3-columns-style-7/";s:20:"404_background_image";s:69:"https://wp.nkdev.info/skylith/wp-content/uploads/2018/10/page-404.jpg";s:33:"social_navigation_show_in_top_nav";b:0;s:25:"footer_background_overlay";s:7:"#111111";s:27:"footer_widgets_cont_padding";s:2:"44";s:14:"footer_widgets";b:1;s:25:"single_post_sidebar_place";s:1:"0";s:20:"footer_widget_1_size";s:2:"12";s:20:"footer_widget_2_size";s:2:"12";s:20:"footer_widget_3_size";s:1:"0";s:20:"footer_widget_4_size";s:1:"0";s:16:"footer_copyright";b:0;s:29:"footer_copyright_cont_padding";s:2:"30";s:27:"footer_copyright_scroll_top";b:1;}s:7:"options";a:0:{}s:6:"wp_css";s:718:"/**
+ * Ghostkit custom styles.
+ */
+
+/**
+ * Gutenberg Custom Styles
+ */
+.wp-block-image img {
+	max-width: 100%;
+}
+
+/* Navbar font */
+.nk-navbar .nk-nav > li > a,
+.nk-navbar .nk-nav .nk-mega-item > .dropdown > ul li > label {
+	font-family: Montserrat, sans-serif;
+}
+.nk-navbar-top .nk-nav > li > a,
+.nk-navbar-top .nk-nav .nk-mega-item > .dropdown > ul li > label {
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
+
+/* Buttons Font */
+.nk-btn,
+.ghostkit-button {
+	font-family: Montserrat;
+	font-size: 13px;
+	letter-spacing: 0.04em;
+}
+
+.vp-filter__style-skylith-alt-2 {
+	font-family: Montserrat;
+	font-size: 13px;
+	color: #151515;
+}
+.vp-filter__style-skylith-alt-2 .vp-filter__item > * {
+	font-size: 1em;
+}";}

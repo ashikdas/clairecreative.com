@@ -1,0 +1,28 @@
+/**
+ * Navigation
+ */
+.nk-header-left .nk-social > ul li > a {
+    padding: 3px 8px;
+}
+
+.nk-navbar-full.nk-navbar-dark .nk-widget-title {
+    color: #fff;
+}
+
+// Side navbar top padding.
+.nk-navbar-side .nk-nav-table {
+    padding-top: 35px;
+}
+
+// Limit the width of logo on mobile devices.
+@media #{$media_smaller_sm} {
+    .nk-navbar-top .nk-nav-table > .nk-nav-logo {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

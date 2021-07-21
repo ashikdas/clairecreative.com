@@ -1,0 +1,28 @@
+@import "./editor-style";
+@import "./assets/scss/parts-wp/__dark-content-style";
+
+/* WP editor styles */
+body {
+    color: #cbcbcb;
+    background-color: #101010;
+}
+.editor-post-title__block .editor-post-title__input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+blockquote {
+    color: #fff;
+}

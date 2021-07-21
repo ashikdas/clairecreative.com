@@ -1,0 +1,81 @@
+/**
+ * Skylith Fade 6 items style
+ */
+.vp-portfolio__items-style-skylith-fade-6 .vp-portfolio__item {
+  overflow: visible;
+  -webkit-transition: .2s color;
+  -o-transition: .2s color;
+  transition: .2s color;
+  will-change: color;
+}
+
+.vp-portfolio__items-style-skylith-fade-6 .vp-portfolio__item a {
+  color: inherit;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vp-portfolio__items-style-skylith-fade-6 .vp-portfolio__item-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  text-decoration: none;
+  -webkit-transition: background-color .2s;
+  -o-transition: background-color .2s;
+  transition: background-color .2s;
+  will-change: background-color;
+}
+
+.vp-portfolio__items-style-skylith-fade-6 .vp-portfolio__item-meta {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.vp-portfolio__items-style-skylith-fade-6 .vp-portfolio__item-meta-title {
+  margin: 0;
+  color: inherit;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  -webkit-transition: .3s opacity, .3s transform;
+  -o-transition: .3s opacity, .3s transform;
+  transition: .3s opacity, .3s transform;
+  -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+          transform: translateY(10px);
+  will-change: opacity, transform;
+}
+
+@media (max-width: 576px) {
+  .vp-portfolio__items-style-skylith-fade-6 .vp-portfolio__item-meta-title {
+    margin-left: 0 !important;
+  }
+}
+
+.vp-portfolio__items-style-skylith-fade-6 .swiper-slide-active .vp-portfolio__item-meta-title {
+  opacity: 1;
+  -webkit-transition: .3s .4s opacity, .3s .4s transform;
+  -o-transition: .3s .4s opacity, .3s .4s transform;
+  transition: .3s .4s opacity, .3s .4s transform;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}

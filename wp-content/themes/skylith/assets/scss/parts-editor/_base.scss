@@ -1,0 +1,267 @@
+/* Base */
+body {
+    color: $color_text_blog;
+    letter-spacing: .004em;
+    background-color: $color_bg;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// fix default overflow in editor.
+html {
+    overflow-x: unset;
+    overflow-y: unset;
+}
+
+.editor-post-title__block .editor-post-title__input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #171717;
+}
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em,
+.h1 em,
+.h2 em,
+.h3 em,
+.h4 em,
+.h5 em,
+.h6 em {
+    font-weight: 500;
+}
+
+// lists
+ul ul ul {
+    list-style-type: square;
+}
+.block-library-list .editor-rich-text__tinymce {
+    line-height: inherit;
+}
+li,
+.block-library-list .editor-rich-text__tinymce li,
+.wp-block-freeform.block-library-rich-text__tinymce li {
+    margin-bottom: 0;
+}
+
+/* Colors */
+.text-white {
+    /* stylelint-disable-next-line */
+    color: #fff !important;
+}
+
+// Links
+.wp-block-freeform.block-library-rich-text__tinymce a,
+a {
+    color: $color_main;
+    text-decoration: none;
+}
+.wp-block-freeform.block-library-rich-text__tinymce a:focus,
+.wp-block-freeform.block-library-rich-text__tinymce a:hover,
+a:focus,
+a:hover {
+    color: darken($color_main, 10%);
+    text-decoration: underline;
+}
+
+// selection color
+::-moz-selection {
+    color: #fff;
+    background-color: $color_main;
+}
+::selection {
+    color: #fff;
+    background-color: $color_main;
+}
+
+// paragraphs
+p {
+    line-height: inherit;
+}
+
+// blockquote
+.wp-block-freeform.block-library-rich-text__tinymce blockquote,
+blockquote {
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.57;
+    color: $color_titles;
+}
+.wp-block-quote .editor-rich-text__tinymce,
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+    padding-left: 0;
+    border-left: none;
+}
+.wp-block-quote {
+    padding-left: 0;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.57;
+    border-left: none;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large),
+.wp-block-quote.is-style-large,
+.wp-block-quote.is-large {
+    padding-left: 0;
+    border-left: none;
+}
+.wp-block-quote.is-style-large,
+.wp-block-quote.is-large {
+    font-size: 1.4em;
+}
+.wp-block-quote .editor-rich-text__tinymce,
+.wp-block-freeform.block-library-rich-text__tinymce blockquote p,
+.wp-block-quote p {
+    font-size: inherit;
+    line-height: inherit;
+}
+.wp-block-quote.is-style-large .wp-block-quote__citation,
+.wp-block-quote.is-large .wp-block-quote__citation {
+    font-size: 18px;
+    text-align: right;
+}
+.wp-block-quote .wp-block-quote__citation {
+    font-size: 13px;
+}
+
+/* Helper Classes */
+.lead {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+div.lead {
+    font-size: 1.68em;
+    line-height: 1.45;
+}
+.div-lead {
+    font-size: 1.68em;
+    line-height: 1.45;
+}
+.div-lead-sm {
+    font-size: 1.25em;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.ml-0 {
+    margin-left: 0 !important; // stylelint-disable-line
+}
+.mr-0 {
+    margin-right: 0 !important; // stylelint-disable-line
+}
+
+// code
+.wp-block-freeform.block-library-rich-text__tinymce code,
+code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word;
+}
+.wp-block-freeform.block-library-rich-text__tinymce a > code,
+a > code {
+    color: inherit;
+}
+
+// preformatted
+.wp-block-freeform.block-library-rich-text__tinymce pre,
+.wp-block-preformatted pre,
+.wp-block-verse pre {
+    position: relative;
+    max-height: 500px;
+    padding: 25px;
+    font-size: 87.5%;
+    line-height: 1.3;
+    color: #fff;
+    background-color: $color_dark_3;
+
+    .tag {
+        display: inline-block;
+        padding: 0;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-align: inherit;
+        white-space: inherit;
+        vertical-align: inherit;
+        border-radius: 0;
+    }
+}
+.wp-block-preformatted pre[class*="language-"] {
+    margin: 0;
+}
+
+// keyboard
+.wp-block-freeform.block-library-rich-text__tinymce kbd,
+kbd {
+    padding: .2em .4em;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2em;
+}
+
+// quote
+.wp-block-freeform.block-library-rich-text__tinymce q,
+q {
+    quotes: initial;
+}
+.wp-block-freeform.block-library-rich-text__tinymce q::before,
+q::before {
+    content: open-quote;
+}
+.wp-block-freeform.block-library-rich-text__tinymce q::after,
+q::after {
+    content: close-quote;
+}
+
+// dl's
+dl {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+dt {
+    font-weight: 700;
+}
+dd {
+    margin-bottom: .5em;
+    margin-left: 0;
+}
+
+// tables
+table {
+    width: 100%;
+    min-width: 240px;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    padding: .5em;
+    text-align: left;
+    word-break: break-all;
+    border: 1px solid currentColor;
+}
+.wp-block-table__cell-content {
+    padding: 0;
+}
+
+// Fix conflict with Bootstrap normalize and buttons.
+.components-button {
+    overflow: hidden;
+}

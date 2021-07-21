@@ -1,0 +1,224 @@
+/* WP Blocks */
+.wp-block-code {
+    padding: .8em 1em;
+    font-family: Menlo, Consolas, monaco, monospace;
+    font-size: 14px;
+    color: #23282d;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.wp-block-pullquote {
+    color: #40464d;
+    border-top: 4px solid #555d66;
+    border-bottom: 4px solid #555d66;
+}
+.wp-block-pullquote cite,
+.wp-block-pullquote footer,
+.wp-block-pullquote__citation {
+    font-size: 13px;
+    font-style: normal;
+    color: #40464d;
+    text-transform: uppercase;
+}
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright {
+    text-align: center;
+}
+
+.wp-block-quote {
+    padding-left: 0;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-style: italic;
+    border-left: none;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large),
+.wp-block-quote.is-style-large,
+.wp-block-quote.is-large {
+    padding-left: 0;
+    border-left: none;
+}
+.wp-block-quote.is-style-large,
+.wp-block-quote.is-large {
+    font-size: 1.4em;
+}
+.wp-block-quote p,
+.wp-block-quote.is-style-large p,
+.wp-block-quote.is-large p {
+    font-size: inherit;
+}
+.wp-block-quote p + cite {
+    margin-top: -10px;
+}
+.wp-block-quote cite,
+.wp-block-quote footer,
+.wp-block-quote__citation {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    font-size: 13px;
+    font-style: normal;
+    color: #6c7781;
+}
+.wp-block-quote cite {
+    font-weight: 500;
+}
+
+.wp-block-button__link,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+    text-decoration: none;
+}
+
+.wp-block-separator {
+    margin: 1.65em auto;
+    border: none;
+    border-bottom: 2px solid #8f98a1;
+}
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    max-width: 100px;
+}
+.wp-block-table {
+    width: 100%;
+    min-width: 240px;
+    border-collapse: collapse;
+}
+.wp-block-table td,
+.wp-block-table th {
+    padding: .5em;
+    word-break: break-all;
+    border: 1px solid currentColor;
+}
+
+// subhead
+p.wp-block-subhead {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #6c7781;
+}
+
+/* Fullpage Split */
+.nk-fullpage-split {
+    position: relative;
+}
+.nk-fullpage {
+    height: 100vh;
+
+    body.admin-bar & {
+        height: calc(100vh - 32px);
+
+        @media screen and (max-width: 782px) {
+            height: calc(100vh - 42px);
+        }
+        @media screen and (max-width: 600px) {
+            height: 100vh;
+        }
+    }
+
+    .nk-fullpage-text-white {
+        color: #fff;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: inherit;
+        }
+    }
+
+    .nk-fullpage-title p,
+    .nk-fullpage-category p {
+        margin-bottom: 0;
+    }
+    .nk-fullpage-text p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/* Fullwidth images */
+.wp-block-image.alignfull,
+.wp-block-image.alignwide,
+.wp-block-image.alignfull img,
+.wp-block-image.alignwide img {
+    width: auto;
+    max-width: none;
+}
+.wp-block-image.alignfull img,
+.wp-block-image.alignwide img {
+    width: 100%;
+}
+
+/* Photos Slideshow */
+.nk-slider[data-show-slideshow-nav="true"] .nk-slider-content {
+    padding-bottom: 15px;
+}
+
+/* Helper Classes */
+.div-lead {
+    font-size: 1.68rem;
+    line-height: 1.45;
+    color: $color_titles;
+}
+.div-lead-sm {
+    font-size: 1.25rem;
+}
+
+/* Quote */
+.nk-blockquote-style-2 p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* AWB Scroll Down Button */
+.nk-awb-scroll-down,
+.nk-fullpage .nk-fullpage-scroll-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 2rem;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50%;
+    opacity: .6;
+    -webkit-transition: .2s color, .2s background-color, .2s box-shadow, .2s opacity, .2s border-color;
+    -o-transition: .2s color, .2s background-color, .2s box-shadow, .2s opacity, .2s border-color;
+    transition: .2s color, .2s background-color, .2s box-shadow, .2s opacity, .2s border-color;
+
+    .nk-awb & {
+        position: absolute;
+        bottom: 65px;
+        left: 50%;
+        margin-left: -25px;
+    }
+
+    > * {
+        -webkit-transition: .2s color;
+        -o-transition: .2s color;
+        transition: .2s color;
+    }
+
+    &:hover {
+        background-color: #fff;
+        border-color: #fff;
+        -webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, .05);
+                box-shadow: 0 1px 15px 0 rgba(0, 0, 0, .05);
+        opacity: 1;
+
+        > * {
+            color: #252525;
+        }
+    }
+}

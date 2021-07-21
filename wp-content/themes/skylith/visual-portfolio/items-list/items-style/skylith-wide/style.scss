@@ -1,0 +1,110 @@
+/**
+ * Skylith Wide items style
+ */
+.vp-portfolio__items-wrap {
+    overflow: visible;
+}
+.vp-portfolio__items-style-skylith-wide {
+    .vp-portfolio__item a {
+        outline: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+
+    .vp-portfolio__item {
+        overflow: visible;
+    }
+
+    // Transitions
+    .vp-portfolio__item-img {
+        overflow: hidden;
+    }
+    .vp-portfolio__item-img img {
+        -webkit-transition: opacity 2s;
+        -o-transition: opacity 2s;
+        transition: opacity 2s;
+        will-change: opacity;
+    }
+    .vp-portfolio__item:hover {
+        .vp-portfolio__item-img img {
+            opacity: .8;
+        }
+    }
+
+    // grouped meta
+    .vp-portfolio__item-meta-group {
+        font-size: .8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        > * {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .vp-portfolio__item-meta-category {
+            display: inline-block;
+
+            + .vp-portfolio__item-meta-category::before {
+                content: ", ";
+                margin-right: 3px;
+                margin-left: -2px;
+            }
+        }
+
+        > * + *::before {
+            content: " ";
+            padding-left: 20px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            -webkit-transition: .2s opacity;
+            -o-transition: .2s opacity;
+            transition: .2s opacity;
+            will-change: opacity;
+
+            &:hover {
+                opacity: .6;
+            }
+        }
+    }
+
+    // meta
+    .vp-portfolio__item-meta {
+        position: relative;
+        padding: 60px 0;
+
+        > * + * {
+            margin-top: 12px;
+        }
+        > * + .vp-portfolio__item-meta-read-more {
+            margin-top: 24px;
+        }
+    }
+    .vp-portfolio__item-meta-title {
+        margin-bottom: 0;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            -webkit-transition: .2s opacity;
+            -o-transition: .2s opacity;
+            transition: .2s opacity;
+            will-change: opacity;
+
+            &:hover {
+                opacity: .6;
+            }
+        }
+    }
+    .vp-portfolio__item-meta-excerpt {
+        opacity: .8;
+    }
+    .vp-portfolio__item-meta-read-more .nk-btn {
+        color: #9c9c9c !important; // stylelint-disable-line
+    }
+}

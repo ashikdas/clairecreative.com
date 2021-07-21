@@ -1,0 +1,123 @@
+.vp-filter__pagination {
+    color: #fff;
+}
+.vp-pagination__style-skylith-alt {
+    color: #fff;
+    background-color: #181818;
+}
+
+.nk-comments {
+    > .bg-color {
+        background-color: $color_dark_05;
+    }
+}
+.nk-comments-style-2,
+.nk-reply-style-2 {
+    background-color: transparent;
+    border-color: $color_dark_1;
+}
+
+.entry-content,
+.nk-comment-text {
+    color: $dark_color_text;
+}
+
+/*
+ * Ghost Kit.
+ */
+.is-style-styled {
+    --gkt-styled-lists-numbered--decoration__color: #{$color_dark_1};
+    --gkt-styled-lists-numbered--decoration__background-color: #fff;
+    --gkt-styled-lists-dotted--decoration__background-color: #fff;
+}
+.is-style-numbered {
+    --gkt-numbered-headings--h2-number__color: #{$color_dark_1};
+    --gkt-numbered-headings--h2-number__background-color: #fff;
+}
+
+// Tabs.
+.ghostkit-tabs.ghostkit-tabs-variant-skylith-alt-1 {
+    .ghostkit-tabs-buttons {
+        background-color: $color_dark_05;
+        border-color: $color_dark_1;
+
+        .ghostkit-tabs-buttons-item {
+            color: #fff;
+
+            &.ghostkit-tabs-buttons-item-active,
+            &:hover {
+                color: $color_main;
+            }
+
+            + .ghostkit-tabs-buttons-item {
+                &::before {
+                    background-color: #fff;
+                }
+            }
+
+            &::after {
+                border-bottom-color: $color_main;
+            }
+        }
+    }
+}
+
+// Carousel.
+.ghostkit-carousel {
+    --gkt-carousel--arrows__color: #{$color_gray_7};
+    --gkt-carousel--bullets__background-color: #{$color_gray_7};
+}
+
+// Pricing Table.
+.ghostkit-pricing-table {
+    --gkt-pricing-table--item__border-color: #{$color_dark_1};
+}
+.ghostkit-pricing-table-variant-skylith-alt-1 {
+    --gkt-pricing-table--item__border-width: 1px;
+
+    .ghostkit-pricing-table-item-title {
+        color: inherit;
+        background-color: $color_dark_1;
+    }
+    .ghostkit-pricing-table-item-price-currency,
+    .ghostkit-pricing-table-item-price-amount {
+        color: inherit;
+    }
+    .ghostkit-pricing-table-item-popular .ghostkit-pricing-table-item-title {
+        color: $color_dark_1;
+        background-color: $color_gray_7;
+    }
+}
+
+// Testimonial.
+.ghostkit-testimonial .ghostkit-testimonial-content {
+    color: #fff;
+}
+
+// Forms.
+.ghostkit-form {
+    --gkt-form--field__color: #fff;
+    --gkt-form--field__background-color: #{$color_dark_1};
+    --gkt-form--field__border-color: #{$color_dark_1};
+    --gkt-form--field-focus__border-color: $color_dark_2;
+}
+.ghostkit-form.is-style-skylith-bordered {
+    --gkt-form--field__border-color: #{$color_dark_2};
+    --gkt-form--field-focus__border-color: #{$color_dark_3};
+    --gkt-form--field__color: currentColor;
+    --gkt-form--field__background-color: transparent;
+}
+
+// Twitter.
+.ghostkit-twitter-variant-skylith-alt-1 {
+    .ghostkit-twitter-item {
+        background-color: $color_dark_05;
+
+        &:hover {
+            background-color: lighten($color_dark_05, 1%);
+        }
+    }
+    .ghostkit-twitter-item-meta-name {
+        color: #fff;
+    }
+}

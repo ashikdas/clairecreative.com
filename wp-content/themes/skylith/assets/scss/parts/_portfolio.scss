@@ -1,0 +1,142 @@
+/* List */
+// portfolio uses styles from another lib
+// so, no styles here
+
+/*
+ * Single Portfolio Item
+ */
+.nk-portfolio-single {
+
+    // title
+    .nk-portfolio-title {
+        margin-bottom: 1.9rem;
+        letter-spacing: .012em;
+    }
+
+    .nk-portfolio-text p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    // half style
+    &.nk-portfolio-single-half {
+        .nk-portfolio-images {
+
+            .container-fluid & {
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+
+        }
+
+        .nk-portfolio-info {
+            max-width: 540px;
+            padding-top: 92px;
+            padding-right: 60px;
+            padding-bottom: 92px;
+            padding-left: 90px;
+
+            @media #{$media_xs} {
+                padding: 70px 40px;
+            }
+
+            @media #{$media_xxs} {
+                padding: 50px 20px;
+            }
+        }
+    }
+}
+
+// details
+.nk-portfolio-details {
+    width: 100%;
+
+    tr td {
+        width: 1%;
+        padding-right: 7px;
+    }
+    tr td + td {
+        width: 100%;
+        padding-right: 0;
+    }
+    tr + tr td {
+        padding-top: 5px;
+    }
+    strong {
+        font-weight: 500;
+        color: $color_titles;
+    }
+}
+
+.nk-portfolio-text + .nk-portfolio-details {
+    margin-top: 46px;
+}
+
+.nk-portfolio-images img {
+    width: 100%;
+    height: auto;
+}
+.nk-portfolio-launch-site {
+    padding-top: 48px;
+    padding-bottom: 54px;
+    text-align: center;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        -webkit-transition: .2s opacity;
+        -o-transition: .2s opacity;
+        transition: .2s opacity;
+
+        &:hover,
+        &.hover {
+            opacity: .6;
+        }
+    }
+
+    > a {
+        display: inline-block;
+        font-size: 1.68rem;
+        font-weight: 600;
+        color: $color_titles;
+
+        &::after {
+            content: "";
+            display: block;
+            margin-top: -4px;
+            border-bottom: 1px solid;
+        }
+    }
+
+    > div {
+        margin-top: 24px;
+        font-size: 1.05rem;
+    }
+}
+
+/*
+ * Single Portfolio Header
+ */
+.nk-portfolio-single-header {
+    display: table;
+    width: 100%;
+    min-height: 570px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e8e8e8;
+
+    > div {
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+
+        > .container > .row {
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+    }
+
+    .nk-portfolio-title + .lead {
+        margin-top: 24px;
+    }
+}

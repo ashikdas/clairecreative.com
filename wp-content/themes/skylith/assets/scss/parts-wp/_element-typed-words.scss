@@ -1,0 +1,89 @@
+.nk-typed-words {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    -webkit-transition: width .5s ease-in-out;
+    -o-transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+    -webkit-perspective: 500px;
+            perspective: 500px;
+
+    > span {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        white-space: nowrap;
+        opacity: 0;
+    }
+
+    &:not(.nk-typed-words-ready) > span:first-of-type,
+    > .nk-typed-words-active {
+        position: relative;
+        opacity: 1;
+    }
+    > .nk-typed-words-show {
+        -webkit-animation: .6s nk-typed-words-show;
+                animation: .6s nk-typed-words-show;
+    }
+    > .nk-typed-words-hide {
+        -webkit-animation: .6s nk-typed-words-hide;
+                animation: .6s nk-typed-words-hide;
+    }
+}
+
+
+@-webkit-keyframes nk-typed-words-show {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%) rotateX(45deg) translateZ(0);
+                transform: translateY(-100%) rotateX(45deg) translateZ(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotateX(0deg) translateZ(0);
+                transform: translateY(0) rotateX(0deg) translateZ(0);
+    }
+}
+
+
+@keyframes nk-typed-words-show {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%) rotateX(45deg) translateZ(0);
+                transform: translateY(-100%) rotateX(45deg) translateZ(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotateX(0deg) translateZ(0);
+                transform: translateY(0) rotateX(0deg) translateZ(0);
+    }
+}
+
+@-webkit-keyframes nk-typed-words-hide {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotateX(0deg) translateZ(0);
+                transform: translateY(0) rotateX(0deg) translateZ(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(100%) rotateX(-45deg) translateZ(0);
+                transform: translateY(100%) rotateX(-45deg) translateZ(0);
+    }
+}
+
+@keyframes nk-typed-words-hide {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotateX(0deg) translateZ(0);
+                transform: translateY(0) rotateX(0deg) translateZ(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(100%) rotateX(-45deg) translateZ(0);
+                transform: translateY(100%) rotateX(-45deg) translateZ(0);
+    }
+}
